@@ -1,0 +1,9 @@
+{
+  "subject_name": "alchohol_retrograde_memory_facilitation",
+  "research_question": "Find academic research published after 1980 that investigates or cites 'Retrograde Enhancement of Human Memory with Alcohol' by Parker et al. (1980), Psychopharmacology, 69, 219-222. Focus on studies examining the effects of post-learning alcohol consumption on memory consolidation, interference, and retrieval in humans. Prioritize experimental studies and recent reviews Identify studies exploring the mechanisms (e.g., reduced retroactive interference, enhanced consolidation, retrieval benefits) underlying alcohol-induced retrograde memory facilitation, particularly those referencing or building upon the findings of Parker et al. (1980) 'Retrograde Enhancement of Human Memory with Alcohol.' Include research on different dosages and timings of alcohol administration post-learning. Search for studies that attempt to replicate, extend, or define the boundary conditions (e.g., different types of memory tasks, subject populations, alcohol doses, retention intervals) of the retrograde memory enhancement effect of alcohol reported by Parker et al. (1980) in 'Retrograde Enhancement of Human Memory with Alcohol.' Include studies with both positive and null findings. Locate recent review articles or meta-analyses (published since 2010) that discuss the phenomenon of alcohol-induced retrograde memory facilitation, referencing the foundational work of Parker et al. (1980), 'Retrograde Enhancement of Human Memory with Alcohol.' What is the current consensus or debate regarding this effect and its underlying mechanisms?",
+  "search_limits": {
+    "high": 50,
+    "medium": 10,
+    "low": 10
+  }
+}

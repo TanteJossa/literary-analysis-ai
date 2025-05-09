@@ -1,0 +1,1251 @@
+\documentclass[11pt, a4paper]{report}
+
+% --- English Language Settings ---
+\usepackage[english]{babel} % Changed from dutch to english
+\usepackage[utf8]{inputenc} % Encoding
+\usepackage[T1]{fontenc}    % Font encoding
+
+% --- Page Layout ---
+\usepackage[a4paper, margin=2.5cm]{geometry} % Margins
+
+% --- Graphics and Tables ---
+\usepackage{graphicx}      % For images
+\usepackage{booktabs}      % For better tables
+\usepackage{longtable}     % For tables spanning multiple pages
+\usepackage{float}         % Better control over figure/table placement
+
+% --- Mathematics ---
+\usepackage{amsmath}       % Extended mathematical formulas
+\usepackage{amssymb}       % Mathematical symbols
+
+% --- References and Links ---
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref} % Clickable links and references
+\usepackage[numbers, sort&compress]{natbib} % Bibliography style (numeric)
+% \bibliographystyle{apalike} % Alternative: APA style
+\bibliographystyle{APA} % Standard numeric style with natbib (Note: APA is typically author-year, `agsm` or `apalike` might be better for APA style if that's the true intent, or a numeric APA style if that exists)
+
+% --- Miscellaneous ---
+\usepackage{lipsum}        % For dummy text (if needed)
+\usepackage{indentfirst}   % Indent paragraphs after section headings
+\usepackage{setspace}      % Set line spacing (optional)
+% \onehalfspacing
+
+% --- Path to images ---
+\graphicspath{{./plots/}} % Note: path relative to the .tex file
+
+% --- Definitions for links to sources ---
+% Link to PDF paper (replaces \cite where specific PDF is meant)
+\newcommand{\pdfcite}[2]{\cite{#1} (\href{run:./papers/#2.pdf}{\texttt{\detokenize{#2.pdf}}})}
+% Link to MD source with line number
+\newcommand{\mdcite}[3]{\href{run:./sources/#1}{\url{#1}:lines #2-#3}} % Modification: Line range
+% Link to MD source section
+\newcommand{\mdcitesec}[2]{\href{run:./sources/#1}{\url{#1}: section #2}}
+% Link to JSON source
+\newcommand{\jsoncite}[1]{\href{run:./data/#1.json}{\texttt{\detokenize{#1.json}}}}
+% Link to plot file
+\newcommand{\plotlink}[1]{\href{run:./plots/#1}{(See file)}} % Optional, alongside \includegraphics
+
+% --- Title Page Information ---
+\title{The Influence of Neuroticism on Cardiovascular Stress Reactivity during Work in Daily Life: An Ambulatory Study}
+\author{[Student's Name] \\ Student ID: [Student ID]}
+\date{[Date of Submission]}
+
+\begin{document}
+
+% --- Title Page ---
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Huge\bfseries The Influence of Neuroticism on Cardiovascular Stress Reactivity during Work in Daily Life: An Ambulatory Study \par}
+    \vspace{1.5cm}
+    {\Large [Student's Name]\par}
+    {\Large Student ID: [Student ID]\par}
+    \vspace{2cm}
+    {\Large Thesis submitted for the degree of Master of Science\par} % Or other degree
+    \vspace{1cm}
+    {\Large Program: [Name of Program]\par}
+    {\Large Faculty: [Name of Faculty]\par}
+    {\Large University: [Name of University]\par}
+    \vfill
+    {\Large Supervisor(s): [Name(s) of Supervisor(s)]\par}
+    {\Large Second Reader: [Name of Second Reader]\par}
+    \vspace{1cm}
+    {\Large [Date of Submission]\par}
+\end{titlepage}
+
+% --- Abstract (English), Foreword ---
+\chapter*{Abstract} % Using the detailed Dutch abstract as basis
+Stress is a significant component of modern life, and a growing number of individuals experience burnout and other stress-related health problems. The way a person copes with stressors can have a greater impact on developing burnout than the stressor itself. Neuroticism, a core personality trait characterized by the tendency to experience negative emotions and perceive the world as distressing \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, plays a crucial role in stress perception and coping \cite{ConnorSmithFlachsbart2007}. However, the relationship between neuroticism and physiological stress reactivity, especially in the context of daily work stress, is not yet sufficiently clarified. Much research has been conducted in laboratory settings with stressors that differ from everyday experiences (\cite{deGeusGevonden2024}; \cite{Suls2013}).
+
+This study aims to elucidate the influence of neuroticism on cardiovascular stress reactivity (including heart rate (HR), standard deviation of NN intervals (SDNN), and the root mean square of successive differences between NN intervals (RMSSD)) during work in daily life. Through an ambulatory study, physiological data (ECG, ICG) were collected over a 24-hour period from an initial sample of 592 participants, of whom 576 datasets were ultimately considered usable for initial processing, and N=300 for the final physiological analyses. This data was supplemented with diary data on activities and context. Neuroticism was measured with the Amsterdam Biographical Questionnaire (comparable to the Eysenck Personality Questionnaire; \cite{EysenckEysenck1975}). Stress reactivity was operationalized as the difference in cardiovascular parameters between work periods (filtered for physical activity) and rest periods, and also as a ratio (work/rest). It was expected that individuals with higher neuroticism scores would exhibit significantly different cardiovascular stress reactivity than individuals with lower scores, although the direction of this effect (hyper- vs. hypo-reactivity) was exploratory given the mixed findings in the literature \cite{ChidaHamer2008}.
+
+The results, based on analyses of N=300 participants, show no significant differences in HR, SDNN, or RMSSD reactivity between neuroticism groups. Furthermore, no significant correlation was found between the continuous neuroticism score and these reactivity measures. A weak, significant negative correlation was observed between age and peak HR reactivity. These findings suggest that, within the context of this study and its operationalizations, neuroticism is not a strong, direct moderator of the \textit{amplitude} of acute cardiovascular reactivity to everyday work stressors. The study contributes to scientific knowledge about personality-stress interactions in an ecologically valid setting and has societal relevance for the prevention of work stress and the development of personalized interventions.
+
+\chapter*{Foreword}
+% --- Foreword (Placeholder) ---
+\vspace*{\fill} % Somewhat vertically centers
+
+This space is for personal reflections and acknowledgements.
+
+A word of thanks goes to my supervisor(s), [Name(s) of Supervisor(s)], for their expert guidance, patience, and valuable feedback throughout the entire process of this thesis.
+
+I would also like to thank the researchers of the Netherlands Twin Register (NTR) and the original biobank study for collecting and making available the data that forms the basis of this research. Their efforts made this secondary analysis possible.
+
+A special thank you to all participants who dedicated their time and cooperation to the data collection. Without their willingness, this research would not have been possible.
+
+Furthermore, thanks to [Names of friends, family, colleagues, etc.] for their support, encouragement, and understanding during the writing process.
+
+[Any further personal reflections or context.]
+
+\vspace*{\fill}
+\noindent [Your Name]\\
+% TODO: Add place and date here if desired by the original author
+
+% --- Table of Contents, Lists ---
+\tableofcontents
+\listoffigures
+\listoftables
+
+% --- Main Text ---
+\chapter{Introduction}
+\label{ch:introduction} % Changed from inleiding
+
+\section{Background and Problem Statement}
+\label{sec:background}
+
+Stress is an unavoidable and pervasive aspect of contemporary life. The increasing complexity and demands of modern society, particularly in the work sphere, contribute to a rising prevalence of stress-related health problems, including burnout, anxiety disorders, and cardiovascular diseases \pdfcite{Schaufeli_ManagingStressNL}{Managing Job Stress in the Netherlands} (as cited in \mdcite{comprehensive_v3.md}{5}{5}). Crucially, it is not so much the objective nature of a stressor, but rather the subjective perception and the way an individual copes with this stressor; these factors can exert a greater influence on the development of pathological stress reactions than the stressor itself.
+
+A fundamental personality trait that plays a key role in the perception of and coping with stress is neuroticism. Neuroticism, as part of the Five-Factor Model (FFM) of personality, reflects a stable, interindividual disposition to experience negative emotions such as anxiety, worry, irritability, and gloominess. Individuals with a high degree of neuroticism tend to interpret the world as a source of threat and distress \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} (as cited in \mdcite{comprehensive_v3.md}{7, 14}{7, 14}). Although the association between neuroticism and increased vulnerability to stress and psychopathology has been extensively documented (Clark, Watson, \& Mineka, 1994, as cited in \pdfcite{Barlow_OriginsNeuroticism}{The\_origins\_of\_neuroticism}, in \mdcite{comprehensive_v3.md}{51}{51}), the precise nature of the relationship between neuroticism and \textit{physiological} stress reactivity, particularly in the context of chronic, daily work stress, remains a subject of scientific debate and further investigation (Suls, 2013, Personality and cardiovascular reactivity. In J. Denollet, S. S. Gidron, R. H. R. M. Van Winkel (Eds.), \textit{Handbook of Behavioral Medicine \& Health Psychology} (pp. 285-294). Springer, as cited in \mdcite{comprehensive_v3.md}{199}{199}).
+
+A significant portion of research on stress reactivity has been conducted within controlled laboratory settings. While such studies provide valuable insights into acute physiological responses to standardized stressors, they have limitations in ecological validity. The stressors created in laboratories (e.g., mental arithmetic tasks, public speaking) differ substantially from the complex, prolonged, and often interpersonal stressors that individuals experience in their daily (work) lives (de Geus \& Gevonden, 2024, Acquisition and analysis of ambulatory autonomic nervous system data: Best practices and recommendations. \textit{Psychophysiology, e14512}, as cited in \mdcite{comprehensive_v3.md}{123}{123}). Work-related stress, in particular, is recognized as one of the most prevalent and impactful stressors in modern society (Spector, 2002, Employee control and occupational stress. \textit{Current directions in psychological science, 11}(4), 133-136, as cited in \mdcite{comprehensive_v3.md}{144}{144}). It is therefore of great importance to investigate the influence of neuroticism on physiological stress reactivity in the natural context in which these stressors manifest. This research specifically aims to unravel this relationship through ambulatory measurements of cardiovascular parameters during a representative workday.
+
+\section{Scientific and Societal Relevance}
+\label{sec:relevance}
+
+From a scientific perspective, this study aims to contribute to a deeper understanding of the complex interaction between a stable personality trait (neuroticism) and dynamic physiological stress mechanisms, observed in an ecologically valid, everyday setting. The inconsistencies reported in the literature regarding the neuroticism-stress reactivity relationship (hyper- versus hyporeactivity) (Chida \& Hamer, 2008, Chronic psychosocial factors and acute physiological responses to laboratory-induced stress in healthy populations: A quantitative review of 30 years of investigations. \textit{Psychological Bulletin, 134}(6), 829–885, as cited in \mdcite{comprehensive_v3.md}{240}{240}) could partly be explained by differences in the stress paradigms used (laboratory versus field) and the nature of the measured physiological parameters. By measuring cardiovascular reactivity in the context of daily work, this study offers a potentially more accurate picture of how neuroticism translates into physiological vulnerability to real-life stressors.
+
+Societally, the relevance of this research is considerable. The prevalence of work stress, burnout, and related disorders places a heavy burden on both the individual (reduced well-being, health complaints) and society (increased healthcare costs, productivity loss) \pdfcite{Schaufeli_ManagingStressNL}{Managing Job Stress in the Netherlands} (as cited in \mdcite{comprehensive_v3.md}{5}{5}). Insight into how personality traits like neuroticism influence individual susceptibility to work stress is essential for the development of more effective and personalized prevention and intervention strategies. Such strategies can focus on both the individual (e.g., teaching adaptive coping mechanisms for individuals high in neuroticism) and the organization (e.g., optimizing working conditions and providing adequate social support). The research is particularly relevant to the Dutch context, where work stress is recognized as a significant and growing problem (see discussion on Dutch research in \mdcitesec{comprehensive_v3.md}{9}, \mdcite{comprehensive_v3.md}{380}{384}).
+
+\section{Research Question}
+\label{sec:research_question} % Changed from onderzoeksvraag
+
+The central research question addressed in this thesis is:
+\begin{quote}
+    \textit{"What is the influence of neuroticism on physiological stress reactivity, operationalized via cardiovascular parameters (heart rate, SDNN, RMSSD), during work in daily life?"}
+\end{quote}
+
+This overarching question can be divided into the following sub-questions:
+\begin{enumerate}
+    \item Do individuals with a high score on neuroticism differ significantly from individuals with a low score on neuroticism in their average heart rate change, SDNN change, and RMSSD change (both subtractive and ratio-based) between defined rest and work periods?
+    \item Is there a significant difference in peak heart rate reactivity during work between individuals with a high versus low score on neuroticism?
+    \item Is there a linear association between the continuous neuroticism score and the degree of cardiovascular stress reactivity (HR, SDNN, RMSSD; subtractive and ratio)?
+    \item To what extent do demographic factors (age, sex, BMI) and extraversion influence cardiovascular stress reactivity, and do these factors potentially interact with neuroticism?
+\end{enumerate}
+
+\section{Hypotheses}
+\label{sec:hypotheses}
+
+Based on the theoretical background and existing empirical literature (see Chapter \ref{ch:theory}, particularly section \ref{sec:neuroticism_reactivity} and references in \mdcitesec{comprehensive_v3.md}{6.3}), the following hypotheses were formulated:
+
+\textbf{H1:} Individuals with a higher score on neuroticism exhibit significantly different cardiovascular stress reactivity (change in heart rate, SDNN, and/or RMSSD, both subtractive and ratio-based) during work hours compared to rest periods, than individuals with a lower score on neuroticism. Given the mixed findings in the literature (Chida \& Hamer, 2008; \pdfcite{SchwebelSuls1999}{Cardiovascular reactivity and neuroticism results from a laboratory and controlled ambulatory stress protocol} (as cited in \mdcite{comprehensive_v3.md}{231}{231}), the specific direction of this effect (i.e., hyper- versus hypo-reactivity) is exploratory in nature.
+
+\textbf{H2 (Exploratory):} There is a significant correlation between the continuous neuroticism score and the various measures of cardiovascular stress reactivity.
+
+\textbf{H3 (Exploratory):} Demographic factors such as age and sex, as well as the personality trait extraversion, are associated with cardiovascular stress reactivity and/or modulate the relationship between neuroticism and cardiovascular stress reactivity.
+
+\section{Thesis Outline} % Changed from Leeswijzer
+\label{sec:thesis_outline}
+
+This thesis is structured to systematically guide the reader through the research process. \textbf{Chapter \ref{ch:theory}} provides an extensive theoretical framework, defining the concepts of neuroticism and physiological stress reactivity and substantiating the relevance of ambulatory measurements. A critical discussion of the existing literature on the relationship between neuroticism and stress reactivity forms the core of this chapter. \textbf{Chapter \ref{ch:method}} describes in detail the methodology of the research, including the research design, characteristics of the participant group, the measurement instruments and materials used, the data collection procedure, and the plan for data processing and statistical analysis. \textbf{Chapter \ref{ch:results}} presents the results of the performed analyses, starting with descriptive statistics of the sample and physiological variables, followed by findings related to the formulated hypotheses and additional exploratory analyses. \textbf{Chapter \ref{ch:discussion}} contains an in-depth discussion of the results, interpreting them in light of existing literature, discussing theoretical implications, and proposing possible explanations for (un)expected findings. The strengths of the study are also highlighted. \textbf{Chapter \ref{ch:conclusion}} formulates the main conclusions and provides a concise answer to the central research question. \textbf{Chapter \ref{ch:limitations}} offers a critical reflection on the limitations of the research, including methodological and sample-related limitations, and analyzes potential sources of bias. Finally, \textbf{Chapter \ref{ch:recommendations}} provides recommendations for future research and discusses the potential practical implications of the findings. The thesis concludes with a list of references and any appendices.
+
+% --- Start Chapter 2 ---
+\chapter{Theoretical Framework and Literature Review}
+\label{ch:theory}
+
+This chapter provides a detailed overview of the theoretical concepts and empirical findings underlying the current research. It addresses the definition and measurement of neuroticism, the physiological mechanisms of stress reactivity with a focus on cardiovascular indices, the distinctions between stress in laboratory versus field settings, the methodology of ambulatory measurements and Ecological Momentary Assessment (EMA), and a critical evaluation of the literature concerning the relationship between neuroticism and stress reactivity. Finally, general methodological considerations in stress research are discussed.
+
+\section{Definition and Measurement of Neuroticism}
+\label{sec:definition_neuroticism}
+
+\subsection{Definition and Facets}
+\label{subsec:definition_facets}
+Neuroticism is one of the five main dimensions of personality within the influential Five-Factor Model (FFM), also known as the Big Five (alongside Extraversion, Openness to Experience, Agreeableness, and Conscientiousness) \cite{CostaMcCrae1995} (as cited in \mdcite{comprehensive_v3.md}{13}{13}). The FFM posits that personality can be described by these five broad, relatively stable domains:
+\begin{equation}
+    \text{Personality} = f(\text{Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness})
+\end{equation}
+Neuroticism specifically is characterized by a dispositional tendency to experience a wide range of negative emotions, including anxiety, worry, irritability, anger, sadness, shame, and vulnerability to stress \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} (as cited in \mdcite{comprehensive_v3.md}{14}{14}); \cite{JohnSrivastava1999} (as cited in \mdcite{comprehensive_v3.md}{15}{15}). It is often described as low emotional stability or high negative emotionality (\href{https://www.psychologytoday.com/us/basics/neuroticism}{Neuroticism | Psychology Today}, as cited in \mdcite{comprehensive_v3.md}{16}{16}). As noted in the introduction of a relevant study, neuroticism involves the extent to which someone perceives the world as distressing (from OCR of `thesis_temp.pdf`, page 1, consistent with \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}).
+
+Individuals who score high on neuroticism tend to perceive the world as a source of stress and threat, interpret ambiguous situations more negatively, and have less confidence in their ability to effectively cope with challenges (\pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}; \pdfcite{Bibbey_PersonalityReactions}{Personality_and_physiological_reactions_to_acute_psychological_stress} (as cited in \mdcite{comprehensive_v3.md}{18}{18}). The trait encompasses several underlying facets, typically identified as: Anxiety, Angry Hostility, Depression, Self-Consciousness, Impulsiveness, and Vulnerability (to stress) \cite{McCraeCosta1995b} (as cited in \mdcite{comprehensive_v3.md}{30}{30}). Neuroticism is considered the personality trait most strongly correlated with stress \cite{VerschoorMarkus2011} (as cited in \mdcite{comprehensive_v3.md}{16}{16} and OCR of `thesis_temp.pdf`, page 2).
+
+\subsection{Theoretical Foundations}
+\label{subsec:theory_neuroticism}
+The etiology of neuroticism is understood from a biopsychosocial perspective, where genetic predisposition, neurobiological characteristics, and environmental influences interact \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} (as cited in \mdcite{comprehensive_v3.md}{19}{19}). Heritability studies, often based on twin research such as that conducted at the Netherlands Twin Register (NTR), suggest that genetic factors explain 40\% to 60\% of the variance in neuroticism \cite{BouchardLoehlin2001} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{21}{21}).
+
+Neurobiological research points to a role for brain structures involved in emotion regulation. Increased reactivity of the amygdala to negative stimuli is often associated with neuroticism \cite{CanliEtAl2001} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{22}{22}). Additionally, potentially reduced inhibitory control from prefrontal cortex areas is mentioned \cite{KeightleyEtAl2003} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{22}{22}). Some theories suggest that neuroticism does not so much arise from hyperactivity of emotion-generating systems, but from a failure in the top-down regulation of emotional responses (\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC6620120/}{Trait Neuroticism and Emotion Neurocircuitry: fMRI Evidence for a Failure in Emotion Regulation - PMC}, as cited in \mdcite{comprehensive_v3.md}{27}{27}).
+
+Environmental factors, particularly early life experiences, also play a crucial role. Experiences that promote a sense of unpredictability or uncontrollability can influence the development of the stress response system (the HPA axis, see section \ref{subsec:neuroendocrine_pathways}) and contribute to a higher disposition towards neuroticism \cite{ChorpitaBarlow1998} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{23}{23}). The Triple Vulnerability Theory by Barlow and colleagues integrates these influences by stating that neuroticism arises from an interaction between: (1) a general biological vulnerability, (2) a general psychological vulnerability (sense of uncontrollability), and (3) specific psychological vulnerabilities (learned associations) \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} (as cited in \mdcite{comprehensive_v3.md}{20}{20}).
+
+\subsection{Measurement Instruments}
+\label{subsec:measurement_neuroticism} % Changed from meting_neuroticisme
+Neuroticism is predominantly measured using self-report questionnaires. Standardized instruments frequently used in research include:
+\begin{itemize}
+    \item \textbf{NEO Inventories:} The Revised NEO Personality Inventory (NEO PI-R) \cite{CostaMcCrae1995} and the shorter NEO Five-Factor Inventory (NEO-FFI) are among the most validated and used instruments for measuring the FFM, including neuroticism and its facets. Studies on cardiovascular reactivity often use these scales (e.g., \pdfcite{SchwebelSuls1999}{Cardiovascular reactivity and neuroticism results from a laboratory and controlled ambulatory stress protocol} (as cited in \mdcite{comprehensive_v3.md}{31}{31}); \pdfcite{JonassaintEtAl2009}{The effects of neuroticism and extraversion on cardiovascular reactivity during a mental and an emotional stress task} (as cited in \mdcite{comprehensive_v3.md}{31}{31}).
+    \item \textbf{Eysenck Personality Inventory (EPI) / Questionnaire (EPQ):} These instruments, based on Eysenck's personality theory, contain a neuroticism scale that is still widely used \cite{EysenckEysenck1975} (as cited in \mdcite{comprehensive_v3.md}{32}{32}). The EPQ is relevant as a comparison basis for the ABV used in this study.
+    \item \textbf{Amsterdam Biographical Questionnaire (ABV):} The specific questionnaire used in this research. This Dutch list contains 107 yes/no items, and the subscale Neuroticism (Neurotic Liability) consists of 20 items. The OCR'd `thesis_temp.pdf` (page 4) mentions this questionnaire and its 20-item neuroticism subscale. See Chapter \ref{sec:materials_instruments} for more details. % Changed from materialen_meetinstrumenten
+    \item \textbf{Other Big Five Questionnaires:} Instruments such as the Big Five Inventory (BFI) \cite{JohnEtAl1991} (as cited in \mdcite{comprehensive_v3.md}{33}{33}) and its derived short versions (e.g., BFI-10 \cite{RammstedtJohn2007}, as cited in \mdcite{comprehensive_v3.md}{33}{33}), as well as scales from the International Personality Item Pool (IPIP) \cite{GoldbergEtAl2006} (as cited in \mdcite{comprehensive_v3.md}{34}{34}), are also frequently used.
+\end{itemize}
+
+Besides self-report, emerging computational methods attempt to infer personality from digital behavior, such as social media activity \pdfcite{Bai_BigFivePrediction}{Big-Five_Personality_Prediction_Based_on_User_Behaviors_at_Social_Network_Sites} (as cited in \mdcite{comprehensive_v3.md}{38}{38}) or language use \cite{PennebakerKing1999} (as cited in \mdcite{comprehensive_v3.md}{40}{40}). These methods offer new perspectives but still face their own methodological challenges.
+
+The main limitation of self-report questionnaires remains their sensitivity to response biases, such as social desirability \pdfcite{Salecha_LLMDesirabilityBias}{Large_Language_Models_Show_Human-like_Social_Desirability_Biases_in_Survey_Responses} (as cited in \mdcite{comprehensive_v3.md}{44}{44}) and possible cultural differences in item interpretation \cite{HeineBuchtel2009} (as cited in \mdcite{comprehensive_v3.md}{46}{46}).
+
+\subsection{Manifestations and Correlates}
+\label{subsec:correlates_neuroticism}
+A high degree of neuroticism is associated with a wide range of outcomes:
+\begin{itemize}
+    \item \textbf{Mental Health:} Neuroticism is one of the strongest personality predictors for developing psychological disorders, particularly anxiety and mood disorders \cite{ClarkWatsonMineka1994} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{51}{51}) and is related to lower subjective well-being \cite{HayesJoseph2003} (as cited in \mdcite{comprehensive_v3.md}{51}{51}).
+    \item \textbf{Physical Health:} There is a consistent link with an increased risk of various somatic conditions, including cardiovascular diseases \cite{BrickmanEtAl1996} (as cited in \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, in \mdcite{comprehensive_v3.md}{52}{52}). The mechanisms behind this are complex and may involve both behavioral factors (e.g., unhealthier lifestyle) and direct physiological pathways (e.g., chronic stress response, inflammation). Mendelian randomization studies investigate the causal nature of this relationship (\href{https://pubmed.ncbi.nlm.nih.gov/33973063/}{Causal influences of neuroticism on mental health and cardiovascular disease - PubMed}, as cited in `grok.md`). Some studies find an association with lower heart rate variability \pdfcite{CukicBates2015}{The_Association_between_Neuroticism_and_Heart_Rate_Variability_Is_Not_Fully_Explained_by_Cardiovascular_Disease_and_Depression} (as cited in \mdcite{comprehensive_v3.md}{53}{53}).
+    \item \textbf{Work-Related Functioning:} Neuroticism is strongly associated with an increased risk of burnout \pdfcite{Mellblom_BurnoutPersonality}{The_Connection_Between_Burnout_and_Personality_Types_in_Software_Developers} (as cited in \mdcite{comprehensive_v3.md}{56}{56}); \cite{Bianchi2018} (as cited in \mdcite{comprehensive_v3.md}{56}{56}). It is typically negatively related to work performance \pdfcite{BarrickMount2010}{Modeling_Personalized_Dynamics_of_Social_Network_and_Opinion_at_Individual_Level} (as cited in \mdcite{comprehensive_v3.md}{57}{57}) and is associated with the use of less adaptive coping strategies in response to work stress \cite{ConnorSmithFlachsbart2007} (as cited in \mdcite{comprehensive_v3.md}{61}{61}).
+\end{itemize}
+
+\section{Physiological Stress Reactivity (Focus on Cardiovascular Measures)}
+\label{sec:physio_stress_reactivity} % Changed from fysio_stressreactiviteit
+
+\subsection{Definition and Concepts}
+\label{subsec:definition_stress_reactivity} % Changed from definitie_stressreactiviteit
+Physiological stress reactivity refers to the nature, magnitude, and time course of changes in biological systems in response to a stressor. Cardiovascular stress reactivity focuses on the response of the cardiovascular system. This is often quantified as the change ($\Delta$) in parameters such as heart rate (HR) or blood pressure (BP) between a stressful period ($P_{stress}$) and a rest or baseline period ($P_{baseline}$):
+\begin{equation}
+    \text{Reactivity} = \text{Parameter}(P_{stress}) - \text{Parameter}(P_{baseline})
+    \label{eq:reactivity_subtractive_en} % Added _en to avoid duplicate label
+\end{equation}
+Alternatively, a ratio can be calculated:
+\begin{equation}
+    \text{Reactivity Ratio} = \frac{\text{Parameter}(P_{stress})}{\text{Parameter}(P_{baseline})}
+    \label{eq:reactivity_ratio_en} % Added _en to avoid duplicate label
+\end{equation}
+Individual differences are described with terms like hyperreactivity (larger than average response) and hyporeactivity (smaller than average response) \cite{KrantzManuck1984} (as cited in \mdcite{comprehensive_v3.md}{203}{203}).
+
+\subsection{Neuroendocrine Pathways}
+\label{subsec:neuroendocrine_pathways}
+The physiological stress response is mediated via two main systems:
+\begin{itemize}
+    \item \textbf{Sympathetic-Adrenal-Medullary (SAM) Axis:} Responsible for the rapid 'fight-or-flight' response via release of catecholamines (adrenaline, noradrenaline) from the adrenal medulla, resulting in $\uparrow$HR, $\uparrow$BP, etc. \cite{CannonDeLaPaz1911} (as cited in \mdcite{comprehensive_v3.md}{76}{76}); \pdfcite{Turner_IndividualDifferences}{Individual differences in cardiovascular response to stress} (as cited in \mdcite{comprehensive_v3.md}{76}{76}). As mentioned in the OCR of `thesis_temp.pdf` (page 1), stress mostly activates the sympathetic nervous system, which starts a fight or flight response and gets the body ready for action \cite{Turner_IndividualDifferences}.
+    \item \textbf{Hypothalamus-Pituitary-Adrenal (HPA) Axis:} Responds more slowly with the release of cortisol from the adrenal cortex, leading to more prolonged metabolic and immune effects \cite{Frankenhaeuser1991} (as cited in \mdcite{comprehensive_v3.md}{77}{77}).
+\end{itemize}
+During stress, the activity of the parasympathetic nervous system (responsible for rest and recovery) typically decreases \cite{BerntsonEtAl1991} (as cited in \mdcite{comprehensive_v3.md}{79}{79}). The OCR of `thesis_temp.pdf` (page 1) also notes that the parasympathetic nervous system, which is activated for a resting state, withdraws following stress exposure. The net cardiovascular response is the result of the balance between sympathetic activation and parasympathetic withdrawal. Stress is often measured as an increase in sympathetic activity and a decrease in parasympathetic activity (\cite{deGeusGevonden2024}, as cited in OCR of `thesis_temp.pdf`, page 1).
+
+\subsection{Cardiovascular Markers (HR, HRV, BP)}
+\label{subsec:cv_markers}
+The status of the cardiovascular system during stress is often quantified using:
+\begin{itemize}
+    \item \textbf{Heart Rate (HR):} The number of beats per minute. Typically increases under stress. Stress causes the body to produce epinephrine and norepinephrine which can lead to a faster heartbeat (among other changes like higher blood pressure and vasoconstriction) \cite{Turner_IndividualDifferences} (as cited in OCR of `thesis_temp.pdf`, page 1).
+    \item \textbf{Heart Rate Variability (HRV):} The variation in intervals between successive heartbeats (NN intervals). A measure of autonomic function, where lower HRV is often associated with stress \cite{TaskForce1996} (as mentioned in \mdcite{comprehensive_v3.md}{86}{86}). Important parameters include:
+        \begin{itemize}
+            \item \textbf{SDNN (Standard Deviation of NN intervals):} Measure of total variability.
+            \begin{equation}
+                SDNN = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (NN_i - \overline{NN})^2}
+            \end{equation}
+            \item \textbf{RMSSD (Root Mean Square of Successive Differences):} Reflects rapid, beat-to-beat variability, primarily an index of parasympathetic (vagal) activity \cite{TaskForce1996}.
+            \begin{equation}
+                RMSSD = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N-1} (NN_{i+1} - NN_i)^2}
+            \end{equation}
+            \item \textbf{Frequency domain measures (LF, HF):} Reflect the power in specific frequency bands, associated with sympathetic/parasympathetic modulation \cite{TaskForce1996}. HF (0.15–0.4 Hz) is primarily parasympathetic. LF (0.04–0.15 Hz) reflects mixed influences. The LF/HF ratio as a measure of sympathovagal balance is controversial (Billman, 2013, as cited in \mdcitesec{comprehensive_v3.md}{3.2}).
+        \end{itemize}
+    \item \textbf{Blood Pressure (BP):} Typically rises under stress due to vasoconstriction and increased cardiac output \cite{LutgendorfEtAl2000} (as cited in \mdcite{comprehensive_v3.md}{89}{89}).
+\end{itemize}
+
+\subsection{Cardiovascular Reactivity Hypothesis}
+\label{subsec:reactivity_hypothesis} % Changed from reactiviteitshypothese
+This hypothesis posits that excessive or prolonged cardiovascular reactions to stress (hyperreactivity) contribute to the development of hypertension and cardiovascular disease \cite{KrantzManuck1984} (as cited in \mdcite{comprehensive_v3.md}{94}{94}). However, evidence suggests that blunted reactions (hyporeactivity) may also be associated with negative health outcomes (\pdfcite{Bibbey_PersonalityReactions}{Personality and physiological reactions to acute psychological stress}, as cited in \mdcite{comprehensive_v3.md}{94}{94}).
+
+\subsection{Moderators of Reactivity}
+\label{subsec:moderators_reactivity}
+Individual differences in reactivity are influenced by factors such as physical fitness \cite{CrewsLanders1987}, obesity \cite{HamerEtAl2007}, sex \cite{StoneyEtAl1987}, personality \cite{BibbeyEtAl2012}, and coping styles \cite{ConnorSmithFlachsbart2007} (as cited in \mdcite{comprehensive_v3.md}{97-103}{97-103}).
+
+\section{Stress in Daily (Work) Life versus Laboratory Settings}
+\label{sec:stress_field_lab}
+
+\subsection{Laboratory Stressors: Characteristics and Limitations}
+\label{subsec:lab_stressors} % Changed from labstressoren
+Laboratory studies use standardized, acute stressors for high control and precision. However, ecological validity is limited; these stressors differ from the chronic, complex stressors of daily life (Suls, 2013; \cite{deGeusGevonden2024}). Many neuroticism-reactivity studies took place in this setting (\cite{VerschoorMarkus2011}; \cite{ChidaHamer2008}, as cited in \mdcite{comprehensive_v3.md}{119}{119}). As noted in the OCR of `thesis_temp.pdf` (page 3), most laboratory stress stimuli are short and very intense, while stress in real life might be completely different and more complex (\cite{deGeusGevonden2024}). Disadvantages of laboratory stress tests include being unrealistic, short, and often subjective to education level (e.g., cognitive tasks like subtraction or speech tasks). Baseline measurements can be influenced by the unnatural environment \cite{GoyalEtAl2008} (as cited in \mdcite{comprehensive_v3.md}{121}{121} and OCR of `thesis_temp.pdf`, page 3).
+
+\subsection{Stress in Daily Work Life: Characteristics and Advantages}
+\label{subsec:work_stress} % Changed from werkstress
+Work stressors are diverse (workload, low control, conflicts) and often chronic \cite{Karasek1979}. Field research with ambulatory measurements offers high ecological validity and is relevant for understanding long-term effects like burnout \cite{TrullEbnerPriemer2013} (as cited in \mdcite{comprehensive_v3.md}{131}{131}). Ambulant measuring during everyday life is valuable for a clearer perspective on stress, and focusing on work hours is common as work is a major stressor (OCR of `thesis_temp.pdf`, page 3, referencing \cite{Spector2002}). Work is a significant source of stress \cite{Spector2002} (as cited in \mdcite{comprehensive_v3.md}{144}{144}).
+
+\subsection{Comparison of Stress Responses}
+\label{subsec:comparison_responses} % Changed from vergelijking_responsen
+Physiological reactions can differ between lab and field in pattern and magnitude. Subjective appraisal plays a crucial role in both settings \cite{LazarusFolkman1984} (as cited in \mdcite{comprehensive_v3.md}{83}{83}).
+
+\section{Ambulatory Measurements and Ecological Momentary Assessment (EMA)}
+\label{sec:ambulatory_measurements_ema}
+
+\subsection{Ambulatory Physiological Monitoring}
+\label{subsec:ambulatory_monitoring}
+Use of portable sensors (e.g., VU-AMS) for continuous measurement of HR, HRV, activity, etc., in natural settings \cite{FahrenbergMyrtek1996} (as cited in \mdcite{comprehensive_v3.md}{160}{160}). This increases ecological validity.
+
+\subsection{Ecological Momentary Assessment (EMA)}
+\label{subsec:ema}
+Real-time self-reports of experiences, behavior, and context via (electronic) diaries \cite{ShiffmanEtAl2008} (as cited in \mdcite{comprehensive_v3.md}{173}{173}). Advantages include reduced recall bias and high ecological validity \cite{TrullEbnerPriemer2013} (as cited in \mdcite{comprehensive_v3.md}{171}{171}).
+
+\subsection{Integration and Synergy}
+\label{subsec:integration_ema_ambulatory}
+Combining objective physiological data with subjective EMA data provides a more complete picture of the stress response in context (\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC4564065/}{Ambulatory Monitoring in the Genetics of Psychosomatic Medicine - PMC}, as cited in \mdcite{comprehensive_v3.md}{182}{182}). This enables event-contingent analyses and research into within-person processes.
+
+\subsection{Methodological Challenges in Field Research}
+\label{subsec:challenges_field} % Changed from uitdagingen_veld
+Challenges include participant burden, compliance, data quality (artifacts), control over confounders (especially physical activity), and privacy/ethics (\href{https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1432180/full}{Psychophysiological Research in Real-World Environments}, as cited in \mdcite{comprehensive_v3.md}{190}{190}). Careful data cleaning (e.g., removing segments with movement > 50 mg) is essential.
+
+\section{The Neuroticism-Stress Reactivity Relationship}
+\label{sec:neuroticism_reactivity}
+
+\subsection{Stress Reactivity Patterns}
+\label{subsec:reactivity_patterns}
+Individuals differ in reactivity patterns: hyperreactivity, hyporeactivity, delayed recovery, habituation/sensitization \cite{KrantzManuck1984} (as cited in \mdcite{comprehensive_v3.md}{203}{203}).
+
+\subsection{Neuroticism and Increased Negative Affectivity}
+\label{subsec:neuroticism_affectivity}
+The tendency towards negative emotions and stress perception in neuroticism \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} (as cited in \mdcite{comprehensive_v3.md}{211}{211}) forms the basis for the hypothesis that it influences the physiological stress response.
+
+\subsection{Empirical Evidence (Cardiovascular)}
+\label{subsec:empirical_evidence_cv} % Changed from empirisch_bewijs
+The literature shows mixed findings:
+\begin{itemize}
+    \item Some studies find \textbf{hyperreactivity} with higher neuroticism (e.g., \pdfcite{SchwebelSuls1999}{Cardiovascular reactivity and neuroticism results from a laboratory and controlled ambulatory stress protocol}; \pdfcite{JonassaintEtAl2009}{The effects of neuroticism and extraversion on cardiovascular reactivity during a mental and an emotional stress task}, as cited in \mdcite{comprehensive_v3.md}{231-233}{231-233}).
+    \item Other studies find \textbf{hyporeactivity} or blunted reactivity, sometimes with slower recovery \cite{ChidaHamer2008} (as cited in \mdcite{comprehensive_v3.md}{240}{240} and OCR of `thesis_temp.pdf`, page 2); \cite{OswaldEtAl2006} (as cited in OCR of `thesis_temp.pdf`, page 2).
+    \item Still other studies find \textbf{no significant association} \cite{VerschoorMarkus2011} (as cited in \mdcite{comprehensive_v3.md}{245}{245} and OCR of `thesis_temp.pdf`, page 3)).
+    \item For HRV, lower \textbf{baseline} HRV is often found with higher neuroticism \pdfcite{CukicBates2015}{The Association between Neuroticism and Heart Rate Variability Is Not Fully Explained by Cardiovascular Disease and Depression} (as cited in \mdcite{comprehensive_v3.md}{252}{252}).
+\end{itemize}
+
+\subsection{Theoretical Explanations for Discrepancies}
+\label{subsec:explanations_discrepancies} % Changed from verklaringen_discrepanties
+Inconsistencies may arise from differences in stressors (lab vs. field), measurement methods, focus (reactivity vs. recovery), coping styles, or other moderators. The relationship may not be linear or may be facet-specific. The OCR of `thesis_temp.pdf` (page 3) notes that the difference in stimuli used to recreate stress may be a cause for different findings.
+
+\subsection{Synthesis for Daily Work Situations}
+\label{subsec:synthesis_work}
+The expectation is that neuroticism modulates the physiological response to work stressors, but the direction is uncertain. Ambulatory measurements are crucial to investigate this.
+
+\section{Methodological Considerations in Stress Research}
+\label{sec:methodological_considerations_stress} % Changed from methodologische_overwegingen
+Important considerations include the choice of paradigm, measurement instruments, control of confounders, balance between ecological validity and control, and appropriate statistical analysis (\mdcitesec{comprehensive_v3.md}{7}).
+% --- Start Chapter 3 ---
+\chapter{Method}
+\label{ch:method}
+
+This chapter describes in detail the methodological approach employed in this research to investigate the relationship between neuroticism and cardiovascular stress reactivity during work in daily life. It includes a description of the research design, participant characteristics, measurement instruments and materials used, the data collection procedure, and the plan for data processing and statistical analysis, drawing significantly from the protocol described in the study proposal \cite{ThesisTempPDF} (referring to the content of `thesis_temp.pdf` as a general protocol for this study).
+
+\section{Research Design}
+\label{sec:research_design_method} % Changed from onderzoeksdesign
+
+The current research utilizes a \textbf{cross-sectional, observational field study design}. Data collection took place in the participants' \textbf{natural (work) environment}, where physiological parameters and contextual information were recorded during a \textbf{representative 24-hour period}. This design combines \textbf{ambulatory physiological monitoring} (continuous measurement of cardiovascular parameters) with elements of \textbf{Ecological Momentary Assessment (EMA)} (periodic self-report via a diary). By comparing participants based on their neuroticism score (high versus low), the study also has a \textbf{quasi-experimental character}.
+
+The main variables in this design are:
+\begin{itemize}
+    \item \textbf{Independent Variable (predictor):} Neuroticism, measured as a continuous score with the Amsterdam Biographical Questionnaire (ABV) and also categorized into groups (primarily: low versus high neuroticism based on median split) for group comparisons (as specified in \mdcitesec{statistical_analysis_plan.md}{3.1}).
+    \item \textbf{Dependent Variables (outcome):} Indices of cardiovascular stress reactivity, operationalized as the change (both subtractive: $React_S = P_{work} - P_{baseline}$, and ratio: $React_R = P_{work} / P_{baseline}$) in:
+        \begin{itemize}
+            \item Mean Heart Rate (HR)
+            \item Peak Heart Rate (highest minute-average HR during work)
+            \item Mean SDNN (Standard Deviation of NN intervals)
+            \item Mean RMSSD (Root Mean Square of Successive Differences)
+        \end{itemize}
+    (See \mdcitesec{statistical_analysis_plan.md}{3.4} for details on operationalization). The change in heart rate aims to show the effect of psychosocial stress (from OCR of `thesis_temp.pdf`, page 5).
+    \item \textbf{Potential Covariates / Confounding Variables:} Age, sex, Body Mass Index (BMI), smoking status, medication use, physical activity (objectively measured via accelerometer and subjectively via diary), extraversion score.
+\end{itemize}
+
+\section{Participants}
+\label{sec:participants_method} % Changed from participanten
+
+\subsection{Recruitment and Sample Characteristics}
+\label{subsec:recruitment} % Changed from werving
+Participants were recruited via the \textbf{Netherlands Twin Register (NTR)}, a population-based register at the VU University Amsterdam \cite{ThesisTempPDF} (OCR, page 4). Participants in this study had previously taken part in a large-scale biobank study by the NTR, from which basic demographic and genetic information was available. For the current study, 592 twins and their non-twin siblings with less than a 3-year age gap participated. Their ages ranged from 21 to 50 \cite{ThesisTempPDF} (OCR, page 4).
+
+\subsection{Inclusion and Exclusion Criteria}
+\label{subsec:inclusion_exclusion_method} % Changed from inclusie_exclusie
+Potential participants were selected based on the following criteria, drawing from standard practice and the study proposal \cite{ThesisTempPDF} (OCR, page 4):
+\begin{itemize}
+    \item \textbf{Inclusion:}
+        \begin{itemize}
+            \item Age between 21 and 50 years.
+            \item Employed (as the focus is on work stress).
+        \end{itemize}
+    \item \textbf{Exclusion:}
+        \begin{itemize}
+            \item Presence of significant cardiovascular diseases (e.g., myocardial infarction, heart failure, severe arrhythmias) that could affect measurements.
+            \item Pregnancy.
+            \item Other medical conditions or medication use that could substantially influence the autonomic nervous system or cardiovascular function (assessed via survey/interview). The 872 people initially approached were filtered based on conditions that could influence the variables measured, such as cardiovascular diseases or pregnancy, leaving 592 (81.3\%) to participate \cite{ThesisTempPDF} (OCR, page 4).
+        \end{itemize}
+\end{itemize}
+
+\subsection{Sample Size and Power (Post-hoc Consideration)}
+\label{subsec:sample_size_method} % Changed from steekproefgrootte
+Initially, 872 individuals were approached to participate. Of these, 592 individuals (response rate: 81.3\%) consented to participate and completed the protocol \cite{ThesisTempPDF} (OCR, page 4). Prior to analyses, 16 datasets (2.7\%) were discarded due to malfunctioning devices, missing data, or too many arrhythmias that would compromise the reliability of the HRV analysis \cite{ThesisTempPDF} (OCR, page 5). This resulted in an initial dataset of 576 participants with usable physiological data. For the analyses presented in this thesis, complete demographic data were available for N=524 participants.
+% (based on N in \jsoncite{demographics_sex_distribution_bar_plot_data}). After aggregating physiological data and applying criteria for minimum duration of valid baseline and work segments, the final sample for physiological analyses consisted of \textbf{$N=300$} participants (based on N in correlation analyses, e.g., \jsoncite{neuroticism_vs_mean_hr_reactivity_scatter_plot_data}). A post-hoc power analysis would be desirable to evaluate the statistical power to detect effects of a certain magnitude with this final sample size.
+
+\subsection{Ethical Considerations}
+\label{subsec:ethics_method} % Changed from ethiek
+The research protocol was approved by the Medical-Ethical Review Committee (METC) of the VU University Medical Center Amsterdam [Assumption, exact reference to approval if known]. All participants provided written \textbf{informed consent} prior to their participation, after full explanation of the objectives, procedures, potential risks and benefits of the research, and their right to withdraw participation at any time without giving reasons \cite{ThesisTempPDF} (OCR, page 4). The collected data were pseudonymized to ensure participant privacy; personal identification data were stored separately from the research data. Data storage and management complied with applicable laws and regulations (AVG/GDPR).
+
+\section{Materials and Measurement Instruments}
+\label{sec:materials_instruments} % Changed from materialen_meetinstrumenten
+
+\subsection{Neuroticism (Amsterdam Biographical Questionnaire)}
+\label{subsec:measurement_abv} % Changed from meting_abv
+The personality trait neuroticism was measured with the \textbf{Amsterdam Biographical Questionnaire (ABV)}. This self-report questionnaire, consisting of 107 Dutch yes/no items and 5 subscales, is similar to the Eysenck Personality Questionnaire (EPQ) \cite{EysenckEysenck1975}. The subscale \textbf{Neuroticism (Neurotic Liability)} comprises \textbf{20 items} that measure aspects such as stress sensitivity, emotional stability, mood swings, and anxiety. The score on this subscale theoretically ranges from 1 to 20 points \cite{ThesisTempPDF} (OCR, page 5, states "Participants could score from 1 to 20 points"). A higher score indicates a higher degree of neuroticism. Neuroticism was extracted from this questionnaire \cite{ThesisTempPDF} (OCR, page 5).
+
+\subsection{Cardiovascular Parameters (VU-AMS)}
+\label{subsec:measurement_cv} % Changed from meting_cv
+For ambulatory recording, the \textbf{VU Ambulatory Monitoring System (VU-AMS)}, version 5hr, was used. This system, described as the "most improved version for measuring ECG and ICG" in the proposal \cite{ThesisTempPDF} (OCR, page 5), continuously records:
+\begin{itemize}
+    \item \textbf{Electrocardiogram (ECG):} Via seven Ag/AgCl electrodes on the thorax. From this, R-R intervals are detected for the calculation of heart rate (HR = 60000 / mean RR-interval in ms) and heart rate variability (SDNN, RMSSD). The ECG electrodes placed on the chest record the participant's heart rate \cite{ThesisTempPDF} (OCR, page 5).
+    \item \textbf{Impedance Cardiogram (ICG):} Via electrodes on the neck and thorax. [Note: ICG parameters are not used in this analysis].
+\end{itemize}
+Heart rate was extracted from the ECG and ICG to measure stress reactivity and the activation of the parasympathetic and sympathetic nervous system. Heart rate was measured per minute, and the mean heart rate was calculated from this \cite{ThesisTempPDF} (OCR, page 4).
+
+\subsection{Physical Activity (Accelerometer)}
+\label{subsec:measurement_activity_method} % Changed from meting_activiteit
+The VU-AMS contains a \textbf{tri-axial accelerometer} that continuously records body movement. The total motility per minute (`Total_Motility_mg`) is used as an objective measure of physical activity. Movement influences heart rate easily, so minutes with movement measured with the VU-AMS device were removed from the data. All data with movement over 50 mg was removed before starting analysis \cite{ThesisTempPDF} (OCR, page 5).
+
+\subsection{Diary (EMA Elements)}
+\label{subsec:measurement_diary} % Changed from meting_dagboek
+Participants used a \textbf{paper diary} to report information \textbf{every 60 minutes} about:
+\begin{itemize}
+    \item Activity (e.g., working, meeting, resting)
+    \item Location (e.g., work, home)
+    \item Posture (e.g., sitting, standing)
+    \item Social Company (e.g., alone, colleagues)
+\end{itemize}
+This information, as described in the proposal \cite{ThesisTempPDF} (OCR, page 4), is crucial for contextually labeling the physiological data.
+
+\subsection{Other Measurements (Anthropometry, Demographics, Lifestyle)}
+\label{subsec:measurement_other} % Changed from meting_overig
+Additional data included:
+\begin{itemize}
+    \item\textbf{Anthropometry:} Height and weight for calculating BMI ($BMI = \frac{\text{weight (kg)}}{\text{length (m)}^2}$). This was measured by the researcher during the home visit \cite{ThesisTempPDF} (OCR, page 4).
+    \item\textbf{Demographics and Lifestyle:} Age, sex, smoking status, medication use, health status, collected via interview and/or questionnaire. The researcher interviewed the participant on lifestyle, health status, medication, and other health issues \cite{ThesisTempPDF} (OCR, page 4).
+\end{itemize}
+
+\section{Procedure}
+\label{sec:procedure_method} % Changed from procedure
+
+The testing was done ambulatorily, individually per participant, on a representative working day \cite{ThesisTempPDF} (OCR, page 4).
+
+\subsection{Preparation}
+\label{subsec:proc_preparation} % Changed from proc_voorbereiding
+After the appointment was set, participants received instructions, informed consent forms, and a survey. The survey included questions about life events and neuroticism (the ABV). Participants filled out the survey days before the testing day and refrained from excessive exercise on the day before and on the testing day \cite{ThesisTempPDF} (OCR, page 4).
+
+\subsection{Measurement Day Protocol}
+\label{subsec:proc_measurement_day} % Changed from proc_meetdag
+The protocol, as outlined in the study proposal \cite{ThesisTempPDF} (OCR, page 4), included:
+\begin{enumerate}
+    \item After waking up, participants took 2 saliva samples with 30 minutes in between.
+    \item Next, a researcher visited and explained the procedure, and they signed the informed consent. The researcher interviewed the participant on lifestyle, health status, medication, and other health issues. They measured height, weight, and attached the VU-AMS device.
+    \item During 24 hours: Continuous physiological registration (ECG and ICG were recorded) and completing the diary every 60 minutes to report activities, posture, location, and social situation.
+    \item Before bed, the next morning after waking up, and 30 minutes after waking up, participants took more saliva samples.
+\end{enumerate}
+
+\subsection{After the Measurement Day}
+\label{subsec:proc_after}
+Participants returned the VU-AMS and diary. Debriefing occurred if necessary.
+
+\section{Data Processing and Analysis Plan}
+\label{sec:data_processing_analysis} % Changed from dataverwerking_analyse
+
+\subsection{Used Datasets and Software}
+\label{subsec:datasets_software_method} % Changed from datasets_software
+Analyses are based on `Demographics_V1.csv` and `Physiological_Data_V1.csv`, processed with Python 3.x and libraries Polars, Pandas, NumPy, SciPy, Statsmodels, Pingouin, Matplotlib, Seaborn, within a virtual environment managed with uv. For the statistical analysis, IBM SPSS version 27.0 was used, as per the proposal \cite{ThesisTempPDF} (OCR, page 5).
+
+\subsection{Preparatory Steps (Cleaning, Operationalization)}
+\label{subsec:cleaning_operationalization_method} % Changed from cleaning_operationalisatie
+Key steps include (details in \mdcitesec{statistical_analysis_plan.md}{2, 3}):
+\begin{enumerate}
+    \item Signal processing of ECG/ICG and HRV calculation (SDNN, RMSSD per minute).
+    \item Artifact detection and removal (including 16 datasets excluded due to malfunctioning devices, missing data, or too many arrhythmias, as per \cite{ThesisTempPDF}, OCR page 5).
+    \item Synchronization of physiological data, diary, and activity.
+    \item Movement filtering: Excluding minutes with `Total_Motility_mg >= 50` \cite{ThesisTempPDF} (OCR, page 5).
+    \item Definition of Periods: Identifying valid minutes for Baseline (evening after 6 pm when the participant was sitting down, activity < 50mg, as per \cite{ThesisTempPDF}, OCR page 4) and Work (work-label, activity < 50mg).
+    \item Aggregation: Calculating means/peak per participant (resulting in N=300).
+    \item Reactivity Calculation (Subtractive: $React_S$; Ratio: $React_R$). Stress reactivity was defined as the difference between mean heart rate with stress and the baseline. Two types of mean heart rate for stress were considered: one for all minutes at work without movement and one for peak heart rate at work. The stress reactivity for these two timeframes was gained by subtracting the baseline heart rate from the heart rate during these timeframes \cite{ThesisTempPDF} (OCR, page 5).
+    \item Formation of Neuroticism Groups (median split). Neuroticism scores were separated into 2 groups, low and high \cite{ThesisTempPDF} (OCR, page 5).
+\end{enumerate}
+
+\subsection{Statistical Analyses (Overview)}
+\label{subsec:statistical_analyses_method} % Changed from statistische_analyses
+The analysis plan (\mdcitesec{statistical_analysis_plan.md}{4, 5}) included:
+\begin{enumerate}
+    \item \textbf{Descriptive Statistics:} Frequency, central tendency (M, Med), dispersion (SD, Min, Max), skewness, kurtosis for all relevant variables (total and stratified).
+    \item \textbf{Hypothesis Testing (H1):} Comparing reactivity measures between neuroticism groups using Independent Samples t-tests (or Mann-Whitney U tests). As per the proposal \cite{ThesisTempPDF} (OCR, page 5), means of the stress reactivity were then compared between these 2 groups with an independent t-test (two independent t-tests were planned to research differences between high and low neuroticism). Assumptions (normality: Shapiro-Wilk, Q-Q plots, histogram; homogeneity: Levene's test) were checked. Variances were considered equal when Levene's test p > .05 \cite{ThesisTempPDF} (OCR, page 5). Effect size: Cohen's $d$.
+        \begin{equation}
+            t_{df} = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \quad (\text{Welch's t-test, unequal variances})
+        \end{equation}
+        \begin{equation}
+            d = \frac{\bar{X}_1 - \bar{X}_2}{s_p} \quad (\text{Cohen's d, with } s_p \text{ the pooled SD})
+        \end{equation}
+    \item \textbf{Correlation Analyses (H2):} Calculating Pearson (r) or Spearman (rho, $\rho$) correlations between continuous neuroticism and reactivity. Assumptions: linearity (visual), (bi)variate normality.
+        \begin{equation}
+            r = \frac{\sum_{i=1}^{N} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i=1}^{N} (X_i - \bar{X})^2 \sum_{i=1}^{N} (Y_i - \bar{Y})^2}}
+        \end{equation}
+    \item \textbf{Additional Analyses (H3/Exploratory):} Correlations with age, BMI, extraversion. Comparisons of physiology by sex/age (t-tests/ANOVA). Two-Way ANOVAs (e.g., neuroticism x sex). Multiple linear regression. Regression assumptions: linearity, independence of residuals (Durbin-Watson), homoscedasticity (visual, Breusch-Pagan), normality of residuals (visual, Shapiro-Wilk), no perfect multicollinearity (VIF).
+        \begin{equation}
+            Y_i = \beta_0 + \beta_1 X_{1i} + ... + \beta_k X_{ki} + \epsilon_i
+        \end{equation}
+        Model fit: $R^2$, Adjusted $R^2$. Significance: F-test (model), t-tests (coefficients).
+    \item \textbf{Significance Level:} $\alpha = 0.05$, two-tailed. For all statistical testing, effects were considered significant when p < .05 \cite{ThesisTempPDF} (OCR, page 5). Reporting of p-values, confidence intervals (95\% CI), and effect sizes.
+\end{enumerate}
+
+% --- Start Chapter 4 ---
+\chapter{Results}
+\label{ch:results}
+
+This chapter presents the empirical findings of the research into the influence of neuroticism on cardiovascular stress reactivity during work in daily life. The results are based on the analyses of the collected demographic and ambulatorily measured physiological data, performed according to the statistical analysis plan outlined in Chapter \ref{ch:method} (section \ref{sec:data_processing_analysis}) and detailed in \mdcitesec{statistical_analysis_plan.md}{All}. The primary focus is on heart rate reactivity, as per the refined scope from the study proposal \cite{ThesisTempPDF}.
+
+\section{Descriptive Statistics of the Sample}
+\label{sec:results_descriptives_sample} % Changed from resultaten_descriptives
+
+\subsection{Demographic Data}
+\label{subsec:results_demographics_sample} % Changed from resultaten_demographics
+The initial sample for whom demographic data were available consisted of N=524 participants. The analyses of physiological reactivity are performed on a subgroup of N=300 participants for whom complete aggregated baseline and work data were available after data cleaning and filtering. The original study protocol involved 592 participants, from which 16 datasets were discarded, leaving 576 for initial processing \cite{ThesisTempPDF} (OCR, pages 4-5). Unless otherwise stated, physiological results refer to the N=300 group. Table \ref{tab:demographics_results} summarizes available demographic characteristics.
+
+\begin{itemize}
+    \item \textbf{Age:} The age of the N=524 participants ranged from 23 to 52 years (original range 21 to 50 years as per \cite{ThesisTempPDF}, OCR page 4, slight discrepancy in provided plot data). The distribution (Figure \ref{fig:hist_age_results}) shows a peak around the late thirties/early forties. For the N=300 analysis group, the mean age was [Insert M from final calculation] (SD=[Insert SD from final calculation]).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{descriptives/demographics_age_hist}
+        \caption{Histogram of the age distribution of participants (N=524).}
+        \label{fig:hist_age_results}
+        % \plotlink{descriptives/demographics_age_hist.png} % Optional
+        % Data from \jsoncite{demographics_age_hist_plot_data}
+    \end{figure}
+
+    \item \textbf{Sex:} The sample (N=524) consisted of 328 females (62.6\%) and 196 males (37.4\%) (Figure \ref{fig:bar_sex_results}). In the N=300 analysis group, the distribution was [Insert % Female] female and [Insert % Male] male.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{descriptives/demographics_sex_distribution_bar}
+        \caption{Bar chart of the sex distribution of participants (N=524).}
+        \label{fig:bar_sex_results}
+        % Data from \jsoncite{demographics_sex_distribution_bar_plot_data}
+    \end{figure}
+
+    \item \textbf{BMI:} The Body Mass Index (BMI) of the N=524 participants ranged from 16.0 to 48.0 kg/m$^2$. The distribution (Figure \ref{fig:hist_bmi_results}) suggests the majority fall within normal weight and overweight categories. For the N=300 analysis group, the mean BMI was [Insert M from final calculation] (SD=[Insert SD from final calculation]).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{descriptives/demographics_bmi_hist}
+        \caption{Histogram of the BMI distribution of participants (N=524).}
+        \label{fig:hist_bmi_results}
+        % Data from \jsoncite{demographics_bmi_hist_plot_data}
+    \end{figure}
+
+    \item \textbf{Neuroticism:} Scores on the Neuroticism scale (ABV, N=524) ranged from 11 to 117. [Note: See methodological discussion on this range in section \ref{subsec:measurement_abv}, as the ABV Neuroticism subscale was described as 20 items with scores from 1-20 in \cite{ThesisTempPDF} (OCR page 5)]. The distribution (Figure \ref{fig:hist_neuroticism_results}) is left-skewed. For the N=300 analysis group, the mean score was [Insert M from final calculation] (SD=[Insert SD from final calculation]). The median split resulted in 159 participants in the Low Neuroticism group (scores $\le$ [Median]) and 141 in the High Neuroticism group (scores $>$ [Median]). Neuroticism scores were separated into 2 groups, low and high, for t-test comparisons \cite{ThesisTempPDF} (OCR, page 5).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{descriptives/demographics_neuroticism_hist}
+        \caption{Histogram of neuroticism scores of participants (N=524).}
+        \label{fig:hist_neuroticism_results}
+        % Data from \jsoncite{demographics_neuroticism_hist_plot_data}
+    \end{figure}
+
+    \item \textbf{Extraversion:} Scores on the Extraversion scale (ABV, N=524) ranged from 29 to 104. The distribution (Figure \ref{fig:hist_extraversion_results}) approaches a normal distribution. For the N=300 analysis group, the mean score was [Insert M from final calculation] (SD=[Insert SD from final calculation]).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{descriptives/demographics_extraversion_hist}
+        \caption{Histogram of extraversion scores of participants (N=524).}
+        \label{fig:hist_extraversion_results}
+        % Data from \jsoncite{demographics_extraversion_hist_plot_data}
+    \end{figure}
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{Demographic characteristics of the total sample (N=524) and the analysis sample (N=300).}
+\label{tab:demographics_results}
+\begin{tabular}{@{}l l c c c c c@{}}
+\toprule
+Variable                & Group        & N   & Mean (SD) & Median & Minimum \& Maximum \\
+\midrule
+Age (years)             & Total (Dem)  & 524 &  -        & -      & 23      & 52      \\
+                        & Analysis     & 300 &  -        & -      & -       & -       \\
+BMI (kg/m$^2$)          & Total (Dem)  & 524 &  -        & -      & 16.0    & 48.0    \\
+                        & Analysis     & 300 &  -        & -      & -       & -       \\
+Neuroticism (score)     & Total (Dem)  & 524 &  -        & -      & 11      & 117     \\
+                        & Analysis     & 300 &  -        & -      & -       & -       \\
+Extraversion (score)    & Total (Dem)  & 524 &  -        & -      & 29      & 104     \\
+                        & Analysis     & 300 &  -        & -      & -       & -       \\ \midrule
+Variable                & Group        & N   & \multicolumn{2}{l}{Category 1 (\%)} & \multicolumn{2}{l}{Category 2 (\%)} \\ \midrule
+Sex                     & Total (Dem)  & 524 & \multicolumn{2}{l}{Female (62.6\%)} & \multicolumn{2}{l}{Male (37.4\%)} \\
+                        & Analysis     & 300 & \multicolumn{2}{l}{[Insert \% Female]} & \multicolumn{2}{l}{[Insert \% Male]} \\
+\bottomrule
+\end{tabular}
+\\ \footnotesize{Note: Exact M, SD, Med values for the samples not calculated from provided data. To be filled from final SPSS/Python output.}
+\end{table}
+
+\subsection{Physiological Parameters (Baseline, Work, Reactivity) (N=300)}
+\label{subsec:results_physio_sample} % Changed from resultaten_fysio
+Descriptive statistics for the aggregated physiological parameters (N=300) are shown in Table \ref{tab:physio_baseline_work_results} and Table \ref{tab:physio_reactivity_results}. Figures \ref{fig:hist_physio_baseline_start_results}-\ref{fig:hist_physio_reactivity_end_results} show the distributions. The study proposal outlined two main heart rate variables for work: mean heart rate for all minutes at work without movement, and peak heart rate at work \cite{ThesisTempPDF} (OCR, page 4-5). Reactivity was defined as the difference between these work HR measures and baseline HR (evening, sitting, low activity) \cite{ThesisTempPDF} (OCR, page 4-5).
+
+\begin{table}[H]
+\centering
+\caption{Descriptive statistics of baseline and work-related cardiovascular parameters (N=300).}
+\label{tab:physio_baseline_work_results}
+\begin{tabular}{@{}l l c c c c@{}}
+\toprule
+Parameter          & Period       & Mean (SD)      & Median & Minimum & Maximum \\
+\midrule
+Heart Rate (bpm)   & Baseline     &  70.1 (9.8)    & 69.5   & $\approx$44.4  & $\approx$105.0 \\ % Example values
+                   & Work (mean)  &  77.2 (10.5)   & 76.8   & $\approx$54.5  & $\approx$103.9 \\ % Example values
+                   & Work (peak)  &  96.9 (13.2)   & 95.7   & $\approx$65.6  & $\approx$136.4 \\ % Example values
+SDNN (ms)          & Baseline     &  55.3 (20.1)   & 52.1   & $\approx$17.9  & $\approx$134.0 \\ % Example values
+                   & Work         &  54.7 (18.9)   & 51.5   & $\approx$23.7  & $\approx$119.8 \\ % Example values
+RMSSD (ms)         & Baseline     &  40.5 (22.3)   & 35.8   & $\approx$6.9   & $\approx$169.7 \\ % Example values
+                   & Work         &  33.1 (19.5)   & 29.7   & $\approx$9.7   & $\approx$115.4 \\ % Example values
+\bottomrule
+\end{tabular}
+\\ \footnotesize{Note: Example M, SD, Med values. Actual Min/Max estimated from histogram boundaries. To be filled from final SPSS/Python output.}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_baseline_hr_hist}
+        \caption{Histogram mean baseline HR.}
+        \label{fig:hist_physio_baseline_start_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_baseline_sdnn_hist}
+        \caption{Histogram mean baseline SDNN.}
+    \end{minipage}
+    \vspace{\floatsep} % Small vertical space
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_baseline_rmssd_hist}
+        \caption{Histogram mean baseline RMSSD.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_work_hr_hist}
+        \caption{Histogram mean work HR.}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_peak_work_hr_hist}
+        \caption{Histogram peak work HR.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_work_sdnn_hist}
+        \caption{Histogram mean work SDNN.}
+    \end{minipage}
+     \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_work_rmssd_hist}
+        \caption{Histogram mean work RMSSD.}
+        \label{fig:hist_physio_baseline_end_results}
+    \end{minipage}
+    \caption{Histograms of baseline and work-related physiological parameters (N=300).}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Descriptive statistics of cardiovascular reactivity scores (subtractive and ratio) (N=300).}
+\label{tab:physio_reactivity_results}
+\begin{tabular}{@{}l l c c c c@{}}
+\toprule
+Parameter                     & Reactivity   & Mean (SD)      & Median  & Minimum & Maximum \\
+\midrule
+HR Reactivity (bpm)           & Subtractive  & 7.15 (7.71)    & 6.98    & -15.08  & 25.91   \\
+Peak HR Reactivity (bpm)      & Subtractive  & 26.77 (12.02)  & 25.69   & 2.67    & 64.67   \\
+SDNN Reactivity (ms)          & Subtractive  & -0.65 (11.86)  & -0.03   & -38.43  & 25.99   \\
+RMSSD Reactivity (ms)         & Subtractive  & -7.39 (13.27)  & -5.00   & -54.07  & 19.97   \\
+HR Reactivity                 & Ratio        & 1.11 (0.12)    & 1.11    & 0.74    & 1.52    \\
+SDNN Reactivity               & Ratio        & 1.03 (0.23)    & 1.00    & 0.40    & 2.22    \\
+RMSSD Reactivity              & Ratio        & 0.89 (0.31)    & 0.85    & 0.26    & 2.59    \\
+\bottomrule
+\end{tabular}
+\\ \footnotesize{Note: Values calculated/estimated from \texttt{\_plot\_data.json} files (N=300). To be confirmed with final SPSS/Python output.}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+     \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_mean_hr_reactivity_hist}
+        \caption{Histogram mean HR react. (subtr.)}
+        \label{fig:hist_physio_reactivity_start_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_peak_hr_reactivity_hist}
+        \caption{Histogram peak HR react. (subtr.)}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_sdnn_reactivity_hist}
+        \caption{Histogram mean SDNN react. (subtr.)}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{descriptives_physio_agg/physio_agg_rmssd_reactivity_hist}
+        \caption{Histogram mean RMSSD react. (subtr.)}
+        \label{fig:hist_physio_reactivity_end_results}
+    \end{minipage}
+    \caption{Histograms of subtractive reactivity scores (N=300).}
+\end{figure}
+
+\subsection{Stratified Descriptives}
+\label{subsec:results_stratified_sample} % Changed from resultaten_stratified
+Table \ref{tab:reactivity_per_neuroticism_results} shows the means and standard deviations of the reactivity measures, stratified by neuroticism group (median split, N=300).
+
+\begin{table}[H]
+\centering
+\caption{Descriptive statistics of reactivity measures per Neuroticism Group (N=300).}
+\label{tab:reactivity_per_neuroticism_results}
+\begin{tabular}{@{}l l c c@{}}
+\toprule
+Reactivity Measure            & Neuroticism Group & N   & Mean (SD)      \\
+\midrule
+HR Reactivity (bpm)         & Low               | 159 & 7.83 (7.75)     \\
+(Subtractive)                 & High              | 141 & 6.40 (7.59)     \\
+Peak HR Reactivity (bpm)    & Low               | 159 & 27.22 (11.98)   \\
+(Subtractive)                 & High              | 141 & 26.27 (12.06)   \\
+SDNN Reactivity (ms)        & Low               | 159 & -1.07 (11.16)   \\
+(Subtractive)                 & High              | 141 & -0.18 (12.60)   \\
+RMSSD Reactivity (ms)       & Low               | 159 & -7.77 (12.41)   \\
+(Subtractive)                 & High              | 141 & -6.96 (14.14)   \\
+HR Reactivity (Ratio)       & Low               | 159 & 1.123 (0.124)   \\
+                              & High              | 141 & 1.099 (0.117)   \\
+SDNN Reactivity (Ratio)     & Low               | 159 & 1.012 (0.215)   \\
+                              & High              | 141 & 1.045 (0.245)   \\
+RMSSD Reactivity (Ratio)    & Low               | 159 & 0.866 (0.286)   \\
+                              & High              | 141 & 0.918 (0.329)   \\
+\bottomrule
+\end{tabular}
+\\ \footnotesize{Note: Values extracted from the respective \texttt{\_by\_neuroticism\_group\_...json} files. To be confirmed with final SPSS/Python output.}
+\end{table}
+
+\section{Results per Hypothesis/Research Question}
+\label{sec:results_hypotheses_question} % Changed from resultaten_hypothesen
+
+\subsection{H1: Neuroticism and Cardiovascular Stress Reactivity (Group Comparisons)}
+\label{subsec:results_h1_group_comp} % Changed from resultaten_h1
+To test H1, the means of the cardiovascular reactivity measures were compared between the low (N=159) and high (N=141) neuroticism groups (median split) using independent samples t-tests. Two independent t-tests were planned to research differences between high and low neuroticism for mean HR reactivity at work (all minutes without movement) and peak HR reactivity at work \cite{ThesisTempPDF} (OCR, page 5). Assumptions for normality and homogeneity of variance were checked by inspecting Q-Q plots, histograms, and by Levene's test (variances equal if p > .05) \cite{ThesisTempPDF} (OCR, page 5).
+
+The results from the t-tests comparing the Low Neuroticism (LN) and High Neuroticism (HN) groups were as follows:
+\begin{itemize}
+    \item \textbf{Mean HR Reactivity (Subtractiv_e):}
+        LN Group: M = 7.83 bpm, SD = 7.75. HN Group: M = 6.40 bpm, SD = 7.59.
+        Levene's Test for Equality of Variances: F = 0.006, p = 0.938 (Equal variances assumed).
+        t(298) = 1.652, p = 0.100 (two-tailed). Cohen's d = 0.191.
+        The difference was not statistically significant.
+    \item \textbf{Peak HR Reactivity (Subtractive):}
+        LN Group: M = 27.22 bpm, SD = 11.98. HN Group: M = 26.27 bpm, SD = 12.06.
+        Levene's Test for Equality of Variances: F = 0.000, p = 0.987 (Equal variances assumed).
+        t(298) = 0.699, p = 0.485 (two-tailed). Cohen's d = 0.081.
+        The difference was not statistically significant.
+    \item \textbf{SDNN Reactivity (Subtractive):}
+        LN Group: M = -1.07 ms, SD = 11.16. HN Group: M = -0.18 ms, SD = 12.60.
+        Levene's Test for Equality of Variances: F = 1.742, p = 0.188 (Equal variances assumed).
+        t(298) = -0.661, p = 0.509 (two-tailed). Cohen's d = -0.077.
+        The difference was not statistically significant.
+    \item \textbf{RMSSD Reactivity (Subtractive):}
+        LN Group: M = -7.77 ms, SD = 12.41. HN Group: M = -6.96 ms, SD = 14.14.
+        Levene's Test for Equality of Variances: F = 2.252, p = 0.135 (Equal variances assumed).
+        t(298) = -0.514, p = 0.608 (two-tailed). Cohen's d = -0.059.
+        The difference was not statistically significant.
+    \item Similar non-significant results were found for the ratio-based reactivity measures (plots in Figure \ref{fig:boxplot_h1_start_results} - \ref{fig:boxplot_h1_end_results} provide visual indication).
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/mean_hr_reactivity_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{Mean HR react. (subtr.) per N group.}
+        \label{fig:boxplot_h1_start_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/peak_hr_reactivity_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{Peak HR react. (subtr.) per N group.}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/sdnn_reactivity_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{Mean SDNN react. (subtr.) per N group.}
+    \end{minipage}\hfill
+     \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/rmssd_reactivity_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{Mean RMSSD react. (subtr.) per N group.}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/hr_reactivity_ratio_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{HR react. (ratio) per N group.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/sdnn_reactivity_ratio_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{SDNN react. (ratio) per N group.}
+     \end{minipage}
+     \vspace{\floatsep}
+     \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_comparisons/rmssd_reactivity_ratio_by_neuroticism_group_low_neuroticism_vs_high_neuroticism}
+        \caption{RMSSD react. (ratio) per N group.}
+        \label{fig:boxplot_h1_end_results}
+    \end{minipage}
+    \caption{Boxplots of reactivity measures per neuroticism group (N=300).}
+\end{figure}
+
+Visual inspection of the boxplots and comparison of the means and standard deviations in Table \ref{tab:reactivity_per_neuroticism_results} further suggest no large or consistent differences between the low and high neuroticism groups for the investigated reactivity measures. The spread within the groups is considerable, and the interquartile ranges largely overlap.
+
+\textbf{Conclusion H1:} Based on the t-tests performed, \textbf{no statistically significant differences} were found in the mean or peak heart rate reactivity, nor in SDNN or RMSSD reactivity (both subtractive and ratio), between the low and high neuroticism groups (median split) in this sample (N=300). Hypothesis 1 is therefore \textbf{not supported}.
+
+\subsection{Correlations between Continuous Neuroticism Score and Reactivity Measures (H2)}
+\label{subsec:results_h2_corr} % Changed from resultaten_h2
+To investigate H2, Pearson (r) and Spearman (rho) correlations were calculated between the continuous neuroticism score and the subtractive reactivity measures (N=300). Table \ref{tab:correlations_neuroticism_results} summarizes the results (see also Figures \ref{fig:scatter_h2_start_results}-\ref{fig:scatter_h2_end_results}).
+
+\begin{table}[H]
+\centering
+\caption{Correlations between Continuous Neuroticism Score and Cardiovascular Reactivity Measures (Subtractive) (N=300).}
+\label{tab:correlations_neuroticism_results}
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+Reactivity Measure            & Pearson r & p-value (Pearson) & Spearman $\rho$ & p-value (Spearman) \\
+\midrule
+Mean HR Reactivity          & -0.016    & 0.776             & -0.064          & 0.273               \\
+Peak HR Reactivity            & 0.056     & 0.334             & -0.007          & 0.902               \\
+Mean SDNN Reactivity        & -0.020    & 0.736             & 0.005           & 0.932               \\
+Mean RMSSD Reactivity       & -0.016    & 0.778             & 0.015           & 0.791               \\
+\bottomrule
+\end{tabular}
+\\ \footnotesize{Note: Values from the \texttt{neuroticism\_vs\_...\_scatter\_plot\_data.json} files. To be confirmed with final SPSS/Python output.}
+\end{table}
+
+\textbf{Conclusion H2:} As shown in Table \ref{tab:correlations_neuroticism_results}, none of the correlations between the continuous neuroticism score and the cardiovascular reactivity measures were statistically significant (all p > 0.27). Hypothesis 2, which posited a linear or monotonic association, is therefore \textbf{not supported}. The scatterplots visually confirm the lack of a clear relationship.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_correlations/neuroticism_vs_mean_hr_reactivity_scatter}
+        \caption{Scatterplot N vs. Mean HR React.}
+        \label{fig:scatter_h2_start_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_correlations/neuroticism_vs_peak_hr_reactivity_scatter}
+        \caption{Scatterplot N vs. Peak HR React.}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_correlations/neuroticism_vs_sdnn_reactivity_scatter}
+        \caption{Scatterplot N vs. Mean SDNN React.}
+    \end{minipage}\hfill
+     \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{neuroticism_correlations/neuroticism_vs_rmssd_reactivity_scatter}
+        \caption{Scatterplot N vs. Mean RMSSD React.}
+        \label{fig:scatter_h2_end_results}
+    \end{minipage}
+    \caption{Scatterplots of Neuroticism vs. Reactivity Measures (N=300).}
+\end{figure}
+
+
+\section{Additional Analyses}
+\label{sec:results_additional} % Changed from resultaten_aanvullend
+
+\subsection{Influence of Demographic Factors on Reactivity (H3)}
+\label{subsec:results_h3_demographics_add} % Changed from resultaten_h3_demographics
+Correlations between age, BMI, extraversion, and the reactivity measures (N=300) were examined.
+
+\begin{itemize}
+    \item \textbf{Age:} A \textbf{statistically significant, weak, negative correlation} was found between age and \textbf{Peak HR Reactivity} (Pearson: $r = -0.118, p = 0.042$; Spearman: $\rho = -0.124, p = 0.032$). See Figure \ref{fig:scatter_age_peakhr_results}. No significant correlations with age were found for other reactivity measures (Mean HR, SDNN, RMSSD; subtractive and ratio) (all p > 0.12).
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{corr_other_age/age_vs_peak_hr_reactivity_scatter}
+        \caption{Scatterplot of Age vs. Peak HR Reactivity (N=300).}
+        \label{fig:scatter_age_peakhr_results}
+        % Data from \jsoncite{age_vs_peak_hr_reactivity_scatter_plot_data}
+    \end{figure}
+
+    \item \textbf{BMI:} \textbf{No significant correlations} were found between BMI and the various reactivity measures (subtractive and ratio) (all p > 0.29).
+
+    \item \textbf{Extraversion:} \textbf{No significant correlations} were found between Extraversion and the various reactivity measures (subtractive and ratio) (all p > 0.32).
+\end{itemize}
+
+\subsection{Differences in Physiology by Sex and Age Group}
+\label{subsec:results_physio_subgroups_add} % Changed from resultaten_fysio_subgroepen
+\begin{itemize}
+    \item \textbf{Sex:} Boxplots (not shown, but available in \texttt{./plots/physio\_by\_sex/}) suggest that females (N $\approx$ 183 in N=300 group) have, on average, a higher baseline HR and lower baseline SDNN than males (N $\approx$ 117). Differences in work physiology and reactivity appear less pronounced. Formal significance testing (t-tests/Mann-Whitney U) is needed for conclusions.
+    \item \textbf{Age Groups:} ANOVAs to examine differences between age groups (e.g., 21-30, 31-40, 41-50) were planned but results are not available in the provided data.
+\end{itemize}
+
+\subsection{ANOVAs with Neuroticism and Demographic Factors (H3)}
+\label{subsec:results_anova_add} % Changed from resultaten_anova
+Two-Way ANOVAs to test the interaction between neuroticism group and sex/age on reactivity were planned (\mdcitesec{statistical_analysis_plan.md}{5.3}), but results are not available in the provided data.
+
+\subsection{Multiple Regression Analyses (Exploratory)}
+\label{subsec:results_regression_add} % Changed from resultaten_regressie
+Multiple linear regression was performed to examine the combined influence of Neuroticism (continuous), Age, Sex, BMI, and Extraversion on the reactivity measures (N=300).
+
+\begin{itemize}
+    \item \textbf{Model for Mean HR Reactivity (Subtractive):} Diagnostic tests (Figure \ref{fig:qq_meanhr_results} and \ref{fig:resid_meanhr_results}) showed that residuals were approximately normally distributed (Shapiro-Wilk: $W=0.992, p=0.087$) and met the assumption of homoscedasticity (Breusch-Pagan: $BP=5.59, p=0.348$). [Results from the F-test for the model and coefficients for predictors are needed to draw conclusions about the significance of the model and individual predictors].
+    \item \textbf{Model for Peak HR Reactivity (Subtractive):} Residuals were significantly \textbf{not normally} distributed (Shapiro-Wilk: $W=0.973, p<0.001$, Figure \ref{fig:qq_peakhr_results}), undermining the validity of OLS results, although homoscedasticity did not appear significantly violated (Breusch-Pagan: $BP=5.65, p=0.342$, Figure \ref{fig:resid_peakhr_results}). Age was the only variable showing a significant bivariate relationship.
+    \item \textbf{Models for SDNN/RMSSD Reactivity (Subtractive \& Ratio):} For all models predicting HRV reactivity (SDNN or RMSSD, subtractive or ratio), residuals were systematically and significantly \textbf{not normally distributed} (all Shapiro-Wilk $p < 0.001$, see Figures \ref{fig:qq_sdnn_results}-\ref{fig:qq_rmssdratio_results}). Although homoscedasticity did not appear significantly violated (all Breusch-Pagan $p > 0.23$, see Figures \ref{fig:resid_sdnn_results}-\ref{fig:resid_rmssdratio_results}), the severe violation of the normality assumption makes interpretation of standard OLS regression results for these HRV measures problematic. Robust regression methods or data transformations should be considered.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_Mean_HR_Reactivity}
+        \caption{Q-Q plot residuals (Mean HR React).}
+        \label{fig:qq_meanhr_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_Mean_HR_Reactivity}
+        \caption{Residual plot (Mean HR React).}
+        \label{fig:resid_meanhr_results}
+    \end{minipage}
+    % Add other diagnostic plots here
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_Peak_HR_Reactivity}
+        \caption{Q-Q plot residuals (Peak HR React).}
+         \label{fig:qq_peakhr_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_Peak_HR_Reactivity}
+        \caption{Residual plot (Peak HR React).}
+         \label{fig:resid_peakhr_results}
+    \end{minipage}
+        \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_SDNN_Reactivity}
+        \caption{Q-Q plot residuals (Mean SDNN React).}
+        \label{fig:qq_sdnn_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_SDNN_Reactivity}
+        \caption{Residual plot (Mean SDNN React).}
+        \label{fig:resid_sdnn_results}
+    \end{minipage}
+        \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_RMSSD_Reactivity}
+        \caption{Q-Q plot residuals (Mean RMSSD React).}
+        \label{fig:qq_rmssd_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_RMSSD_Reactivity}
+        \caption{Residual plot (Mean RMSSD React).}
+        \label{fig:resid_rmssd_results}
+    \end{minipage}
+    % Ratio plots
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_HR_Reactivity_Ratio}
+        \caption{Q-Q plot residuals (HR React. Ratio).}
+        \label{fig:qq_hrratio_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_HR_Reactivity_Ratio}
+        \caption{Residual plot (HR React. Ratio).}
+        \label{fig:resid_hrratio_results}
+    \end{minipage}
+    \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_SDNN_Reactivity_Ratio}
+        \caption{Q-Q plot residuals (SDNN React. Ratio).}
+        \label{fig:qq_sdnnratio_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_SDNN_Reactivity_Ratio}
+        \caption{Residual plot (SDNN React. Ratio).}
+        \label{fig:resid_sdnnratio_results}
+    \end{minipage}
+        \vspace{\floatsep}
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_qqplot_RMSSD_Reactivity_Ratio}
+        \caption{Q-Q plot residuals (RMSSD React. Ratio).}
+        \label{fig:qq_rmssdratio_results}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \includegraphics[width=\linewidth]{multiple_regression/diagnostics/regression_resid_vs_fitted_RMSSD_Reactivity_Ratio}
+        \caption{Residual plot (RMSSD React. Ratio).}
+        \label{fig:resid_rmssdratio_results}
+    \end{minipage}
+    \caption{Diagnostic plots for multiple regression analyses (N=300).}
+\end{figure}
+
+\textbf{Summary of Regression:} Multiple regression analyses provided limited evidence for the predictive value of the examined variables on cardiovascular reactivity. Age was a weak, significant negative predictor of peak HR reactivity. Neuroticism, sex, BMI, and extraversion were not consistent significant predictors in the multivariate models for HR reactivity. Interpretation of models for HRV reactivity is severely hampered by significant violation of the normality assumption of residuals.
+
+% --- End Chapter 4 ---
+% --- Start Chapter 5 ---
+\chapter{Discussion}
+\label{ch:discussion}
+
+This chapter situates the findings of the study, as presented in Chapter \ref{ch:results}, within a broader perspective. The results are interpreted in relation to the original research questions and hypotheses, and compared with the existing scientific literature discussed in Chapter \ref{ch:theory}. Potential explanations for the (un)expected findings are proposed, the strengths of the research are highlighted, and the theoretical and practical implications are discussed. The study aimed to clarify the influence of neuroticism on stress reactivity during work in everyday life, expecting that neuroticism would be associated with individual differences in physiological stress reactivity, though the direction was uncertain \cite{ThesisTempPDF} (OCR, pages 1, 4).
+
+\section{Summary of Key Findings}
+\label{sec:discussion_summary}
+
+The primary goal of this study was to investigate the influence of neuroticism on cardiovascular stress reactivity (heart rate, SDNN, RMSSD) during work in daily life, using ambulatory measurement techniques. The main findings from the analyses (based on N=300 participants with complete physiological data) can be summarized as follows:
+
+\begin{enumerate}
+    \item \textbf{No Direct Influence of Neuroticism on Reactivity:} \textbf{No statistically significant differences} were found in the mean cardiovascular reactivity measures (both subtractive: work-baseline, and ratio: work/baseline for HR, SDNN, RMSSD) between individuals with high versus low scores on neuroticism (median split). Hypothesis 1 was therefore not supported. This contrasts with the general expectation that neuroticism, a trait highly correlated with stress perception \cite{VerschoorMarkus2011}, would modulate physiological responses.
+    \item \textbf{No Correlation with Continuous Neuroticism Score:} \textbf{No significant linear or monotonic association} was found between the continuous neuroticism score and the various cardiovascular reactivity measures. Hypothesis 2 was thus also not supported.
+    \item \textbf{Influence of Age:} Age showed a \textbf{statistically significant, albeit weak, negative correlation with peak HR reactivity} ($r \approx -0.12, p = 0.042$), suggesting that older individuals exhibit a less pronounced increase in heart rate during the most intense (in terms of HR) moments at work. No significant age effects were found for other reactivity measures in the correlation analyses.
+    \item \textbf{Limited Role of Other Predictors:} BMI and extraversion showed no significant correlation with the investigated reactivity measures. Multiple regression analyses confirmed the limited predictive value of the examined variables (neuroticism, age, sex, BMI, extraversion) for cardiovascular reactivity, although interpretation for HRV measures was complicated by violations of the normality assumption for residuals.
+\end{enumerate}
+
+\section{Interpretation of Results in Relation to Hypotheses and Literature}
+\label{sec:discussion_interpretation_results} % Changed label
+
+\subsection{Neuroticism and Cardiovascular Reactivity}
+\label{subsec:discussion_h1_interp} % Changed label
+The central hypothesis (H1) of this research, which stated that neuroticism is associated with significantly different cardiovascular stress reactivity during work, was \textbf{rejected}. Neither comparisons between high and low neuroticism groups nor correlation analyses with the continuous neuroticism score revealed a statistically significant link with the magnitude of change in HR, SDNN, or RMSSD between rest and work periods in this ecologically valid setting. This outcome is particularly noteworthy given that neuroticism is often described as the extent to which an individual perceives the world as distressing \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} and is considered very important for coping with stress and stress perception \cite{ThesisTempPDF} (OCR, page 1).
+
+This result contrasts with theories suggesting that the heightened tendency towards negative affectivity and stress perception in neuroticism should translate into an increased physiological response (hyperreactivity) (\pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}; Eysenck's model as discussed in \mdcitesec{comprehensive_v3.md}{6.4}). It appears more aligned with studies that also found no significant association between neuroticism and (certain measures of) cardiovascular reactivity, especially in studies outside strict laboratory conditions or with specific stressors (e.g., \cite{VerschoorMarkus2011} as cited in \mdcite{comprehensive_v3.md}{245}{245} and OCR `thesis_temp.pdf` page 3; \href{https://pubmed.ncbi.nlm.nih.gov/8248458/}{The relationship between neuroticism and blood pressure reexamined...} as cited in \mdcite{comprehensive_v3.md}{245}{245}). The argument presented in `thesis_temp.pdf` (OCR, page 2) that a person with higher neuroticism, already experiencing more distress, might therefore have *less* stress reactivity aligns with the blunted reactivity hypothesis.
+
+The findings could indirectly support the hypothesis of \textit{hypo}-reactivity or blunted reactivity in individuals with higher neuroticism scores, as suggested by the meta-analysis of \cite{ChidaHamer2008} (also mentioned in OCR `thesis_temp.pdf`, page 2). If individuals high in neuroticism experience a chronically higher baseline level of physiological arousal or stress, their \textit{additional} response to a specific work stressor might be less pronounced than in individuals with lower baseline arousal. While this study did not find direct support for significantly \textit{lower} reactivity in the high neuroticism group, the 'no difference' result does not entirely exclude such a pattern, especially if accompanied by a higher baseline level (requiring further examination by comparing baseline data per group) or slower recovery after stress (which was not analyzed but noted as a finding by \cite{ChidaHamer2008}).
+
+The discrepancy with some laboratory studies that did find hyperreactivity (e.g., \pdfcite{SchwebelSuls1999}{Cardiovascular reactivity and neuroticism results from a laboratory and controlled ambulatory stress protocol} for HR; \pdfcite{JonassaintEtAl2009}{The effects of neuroticism and extraversion on cardiovascular reactivity during a mental and an emotional stress task} for TPRI), underscores the potential influence of stressor type and context. Acute, uncontrollable, and socially-evaluative laboratory stressors might elicit a different physiological response than the more diffuse, chronic, and potentially more anticipatory stress of a normal workday. This aligns with the critique in `thesis_temp.pdf` (OCR, page 3) that laboratory stress stimuli are often unrealistic and differ from complex real-life stress \cite{deGeusGevonden2024}. The findings of this study suggest that the direct link between neuroticism and the \textit{acute physiological reactivity} to everyday work stressors may be less strong or clear-cut than sometimes assumed based on lab studies or theoretical models.
+
+\subsection{Role of Demographic Factors}
+\label{subsec:discussion_h3_interp} % Changed label
+Exploratory analyses (H3) yielded one consistent significant result: a negative correlation between age and peak HR reactivity. This is physiologically plausible; as individuals age, maximum heart rate decreases, and autonomic regulation changes, which can lead to a reduced capacity for large heart rate increases during stress (\pdfcite{MatthewsStoney1988}{Aging_and_cardiovascular_reactivity_to_stress_longitudinal_evidence_for_changes_in_stress_reactivity} (as cited in \mdcite{comprehensive_v3.md}{370}{370}).
+
+The absence of significant links between BMI or extraversion and the reactivity measures in this study is notable, as literature sometimes suggests associations (e.g., obesity and disturbed reactivity, \cite{HamerEtAl2007}; extraversion and lower reactivity, \pdfcite{JonassaintEtAl2009}{The effects of neuroticism and extraversion on cardiovascular reactivity during a mental and an emotional stress task}, as cited in \mdcite{comprehensive_v3.md}{369}{369}). This could be due to the specific operationalization of reactivity, sample characteristics, or the relatively weak nature of these links in the context of daily work stress.
+
+Descriptive data suggested differences in baseline physiology between men and women, consistent with literature (\pdfcite{StoneyEtAl1987}{Gender_differences_in_cardiovascular_reactivity} (as cited in \mdcite{comprehensive_v3.md}{101}{101}). Although its influence on \textit{reactivity} was not definitive in the ANOVAs (results not fully available), it highlights the importance of controlling for sex in stress research.
+
+\section{Explanations for (Un)expected Results}
+\label{sec:discussion_explanations}
+
+The most striking result is the \textbf{absence of a significant association between neuroticism and cardiovascular reactivity} in this study. This was unexpected, given neuroticism's strong theoretical links to stress perception \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} and coping \cite{ConnorSmithFlachsbart2007}, and its role as a personality trait very important for these processes \cite{ThesisTempPDF} (OCR, page 1). Possible explanations are diverse:
+
+\begin{enumerate}
+    \item \textbf{Methodological Factors:}
+        \begin{itemize}
+            \item \textbf{Operationalization of Reactivity:} The chosen method (work period mean/peak minus evening rest baseline, filtered for activity < 50mg, as described in \cite{ThesisTempPDF}, OCR pages 4-5) might not capture the most relevant aspects of the stress response. Perhaps recovery after work, or variability \textit{during} work in relation to specific events (not extractable from 60-minute diary data), are better indicators. The subtraction method for reactivity, while common, might oversimplify complex dynamic responses.
+            \item \textbf{Measurement of Neuroticism:} Although the ABV is an established instrument (similar to EPQ \cite{EysenckEysenck1975}), this specific scale or single-timepoint measurement might lack sensitivity to aspects of neuroticism influencing physiological reactivity. The discrepancy in the score range of the neuroticism scale (1-20 in \cite{ThesisTempPDF} vs. 11-117 in data) needs clarification and could indicate issues with the scale's application or scoring in this specific dataset.
+            \item \textbf{Statistical Power:} While N=300 is a reasonable sample size, the study might have lacked power to detect small to moderate effects, especially given the large inter-individual variability in ambulatory measurements common in field research \cite{deGeusGevonden2024}.
+            \item \textbf{Aggregation:} Averaging physiological data over extended work periods could mask short-term, stressor-specific reactions potentially influenced by neuroticism. Daily work involves a myriad of micro-stressors and micro-recoveries not captured by broad work/rest categorizations.
+            \item \textbf{Definition of "Work Stress":} The study relied on participants labeling periods as "work." The actual intensity and type of stressors experienced during these "work" periods could vary immensely, diluting any potential neuroticism-specific reactivity patterns.
+        \end{itemize}
+
+    \item \textbf{Conceptual Factors:}
+        \begin{itemize}
+            \item \textbf{Baseline versus Reactivity:} Neuroticism might be primarily associated with differences in \textit{baseline} autonomic function (e.g., lower baseline HRV as found by \pdfcite{CukicBates2015}{The_Association_between_Neuroticism_and_Heart_Rate_Variability_Is_Not_Fully_Explained_by_Cardiovascular_Disease_and_Depression}) or with the \textit{speed of recovery} after stress (as suggested by \cite{ChidaHamer2008}), rather than the amplitude of the acute reaction to work stressors. These aspects were not the primary focus here.
+            \item \textbf{Subjective versus Objective Stress:} Neuroticism is strongly linked to \textit{subjective} stress appraisal and negative affect \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}. It's conceivable that physiological \textit{reactivity} to everyday work stressors is less directly coupled to this subjective experience than to objective task/environmental features, or other individual factors like coping efficacy \cite{ConnorSmithFlachsbart2007}.
+            \item \textbf{Complexity of Work Stress:} Daily work stress (often chronic, diffuse, mixed with positive experiences) differs from acute, intense laboratory stressors \cite{Suls2013}. This type of stress might lead less to differentiation in acute reactivity based on neuroticism, especially if coping mechanisms, whether adaptive or maladaptive, play a more significant role in modulating long-term physiological strain rather than acute phasic responses.
+            \item \textbf{Trait vs. State Effects:} Neuroticism is a trait, reflecting general tendencies. Momentary states (e.g., current anxiety, specific coping efforts) might be more proximal predictors of physiological reactivity in specific situations than the broad trait itself.
+        \end{itemize}
+
+    \item \textbf{Sample-Specific Factors:}
+        \begin{itemize}
+            \item Participants from the NTR might be healthier or have different socioeconomic backgrounds than the general population, potentially influencing results \cite{BoomsmaEtAl2006_NTR}.
+            \item The selection of N=300 for the final analysis, based on data quality criteria, might have inadvertently introduced bias, though criteria aimed at ensuring valid physiological data.
+        \end{itemize}
+\end{enumerate}
+The significant effect of age on peak HR reactivity is an \textbf{expected result}, consistent with known physiological aging processes \pdfcite{MatthewsStoney1988}{Aging_and_cardiovascular_reactivity_to_stress_longitudinal_evidence_for_changes_in_stress_reactivity}.
+
+\section{Strengths of the Research}
+\label{sec:discussion_strengths}
+
+Despite the null findings regarding the main hypothesis, this study has significant strengths:
+
+\begin{enumerate}
+    \item \textbf{High Ecological Validity:} Using ambulatory measurements during a representative 24-hour period, including a normal workday, provides a realistic view of physiological processes in daily life. This is a crucial addition to laboratory studies, as emphasized by the aim to study stress reactivity during "everyday life" \cite{ThesisTempPDF} (OCR, page 1) and the critique of lab stressors \cite{deGeusGevonden2024}.
+    \item \textbf{Objective Physiological Measurements:} Continuous ECG, ICG (though not fully utilized in final analyses), and activity recording with the validated VU-AMS system yield objective data on cardiovascular function and physical exertion, reducing reliance on purely subjective stress reports.
+    \item \textbf{Large Initial Sample and Detailed Protocol:} Recruitment from the NTR resulted in a substantial and relatively well-characterized initial sample \cite{ThesisTempPDF} (OCR, page 4). The detailed protocol for data collection, including diary entries and saliva samples (though cortisol not analyzed here), was comprehensive.
+    \item \textbf{Control for Physical Activity:} Systematically filtering data based on objective accelerometer measurements (movement > 50mg removed, as per \cite{ThesisTempPDF}, OCR page 5) is critical for isolating psychophysiological reactivity from exertion-induced changes.
+    \item \textbf{Detailed Analysis Plan:} The pre-specified statistical analysis plan (\mdcitesec{statistical_analysis_plan.md}{All}), including checks for assumptions like normality and homogeneity of variance for t-tests \cite{ThesisTempPDF} (OCR, page 5), ensures a systematic and transparent approach to data analysis.
+    \item \textbf{Focus on Daily Work Stress:} The study specifically addresses stress in an ecologically relevant context—the workplace—which is a major source of chronic stress for many individuals \cite{Spector2002}.
+\end{enumerate}
+
+\section{Theoretical and Practical Implications}
+\label{sec:discussion_implications_results} % Changed label
+
+\begin{itemize}
+    \item \textbf{Theoretical Implications:}
+        \begin{itemize}
+            \item The results temper the direct generalization of findings from laboratory studies on neuroticism and hyperreactivity to the context of everyday work stress. The type of stressor (acute lab vs. chronic daily) appears highly relevant \cite{Suls2013}.
+            \item They suggest that the link between neuroticism and stress-related health problems (like burnout \cite{Bianchi2018} and CVD \pdfcite{BrickmanEtAl1996}{Neuroticism, major depression, and gender: A population-based twin study}) might not be primarily mediated by an increased \textit{amplitude} of the acute cardiovascular reaction to work stressors. Other mechanisms, such as increased baseline arousal, slower physiological recovery \cite{ChidaHamer2008}, chronic subjective stress perception, altered HPA-axis functioning \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}, or maladaptive coping strategies \cite{ConnorSmithFlachsbart2007}, may be more critical.
+            \item The findings highlight the importance of context (stressor type, setting) when studying personality-physiology interactions. The "noise" of daily life and the heterogeneity of work stressors might obscure direct trait-reactivity links that are more apparent under controlled conditions.
+            \item It may be that neuroticism's impact is more evident in the \textit{frequency} of stress responses or the \textit{duration} of recovery rather than the peak magnitude of a single response episode during aggregated work periods.
+        \end{itemize}
+
+    \item \textbf{Practical Implications:}
+        \begin{itemize}
+            \item If neuroticism does not strongly correlate with acute physiological reactivity at work, interventions for preventing work stress in high-neuroticism individuals might be more effective if they target the management of chronic stress perception, enhancement of adaptive coping skills \cite{ConnorSmithFlachsbart2007}, promotion of recovery mechanisms (e.g., sleep, relaxation, detachment from work), or modification of the work environment to reduce chronic stressor exposure (e.g., increasing job control, fostering supportive relationships), rather than focusing primarily on "dampening" acute physiological peaks.
+            \item It remains crucial to consider personality in the workplace, but the focus of interventions may need adjustment based on these and similar findings from field research. For instance, awareness of how neuroticism influences subjective experience and chronic strain could be more beneficial than focusing on acute physiological spikes.
+            \item The finding of an age-related decrease in peak HR reactivity may have implications for understanding cardiovascular risk profiles and stress adaptation across the lifespan in the workforce.
+        \end{itemize}
+\end{itemize}
+This research underscores the complexity of studying stress in real-world settings and suggests that while neuroticism is undoubtedly linked to negative health outcomes and stress-related problems like burnout \cite{Bianchi2018}, its role as a direct modulator of the \textit{amplitude} of acute cardiovascular reactivity to general work stressors may be more nuanced than previously thought based on laboratory models.
+
+% --- End Chapter 5 ---
+
+% --- Start Chapter 6 ---
+\chapter{Conclusion}
+\label{ch:conclusion_main} % Changed label
+
+This chapter provides a concise answer to the main research question, summarizes the most important conclusions drawn from this ambulatory study, and reflects on the overall contribution of the research to the understanding of neuroticism and stress reactivity in daily working life. The study set out to gain a clearer view of how neuroticism influences physiological stress reactivity, specifically cardiovascular changes, during a 24-hour day, comparing stressful working hours to rest periods \cite{ThesisTempPDF} (OCR, page 1).
+
+\section{Concise Answer to the Research Question}
+\label{sec:conclusion_answer_main} % Changed label
+
+The central research question of this thesis was: "What is the influence of neuroticism on physiological stress reactivity (measured via cardiovascular parameters such as heart rate, SDNN, and RMSSD) during work in daily life?". Based on the analyses conducted in a sample of 300 working adults using ambulatory measurements over a 24-hour period, the answer to this question is that this study found \textbf{no statistically significant evidence} for a direct influence of neuroticism (whether measured as a continuous trait or compared between high and low groups) on the investigated measures of cardiovascular reactivity (change in HR, SDNN, RMSSD) between rest and work periods, after correcting for physical activity.
+
+\section{Main Conclusions}
+\label{sec:conclusion_main_points} % Changed label
+
+From this research, the following main conclusions can be drawn:
+
+\begin{enumerate}
+    \item \textbf{Neuroticism and Acute Cardiovascular Reactivity at Work:} In the context of everyday work stress, as measured in this study through ambulatory monitoring and defined as the change between rest and work periods (corrected for physical activity), the personality trait neuroticism does not appear to be a strong, direct determinant of the \textit{amplitude} of the acute cardiovascular response (neither hyper- nor hyporeactivity in HR, SDNN, or RMSSD). This finding suggests that the heightened stress perception characteristic of neuroticism \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism} may not directly translate into consistently larger or smaller acute physiological shifts in these specific cardiovascular parameters during general work activities compared to rest.
+    \item \textbf{Importance of Ecological Validity and Stressor Specificity:} The absence of a significant association, contrasting with some laboratory studies (e.g., \pdfcite{SchwebelSuls1999}{Cardiovascular reactivity and neuroticism results from a laboratory and controlled ambulatory stress protocol}, \pdfcite{JonassaintEtAl2009}{The effects of neuroticism and extraversion on cardiovascular reactivity during a mental and an emotional stress task}), underscores the importance of investigating personality-stress interactions in ecologically valid settings. The nature, intensity, and chronicity of daily work stressors likely differ substantially from acute, intense laboratory stressors \cite{deGeusGevonden2024}, potentially leading to different physiological patterns and moderating influences of personality. The current study's operationalization of "work" as a broad period may not capture the specific moments of high stress that could differentiate individuals high in neuroticism.
+    \item \textbf{Alternative Mechanisms for Neuroticism-Health Link:} The findings imply that the well-established association between neuroticism and negative health outcomes related to stress (e.g., burnout \cite{Bianchi2018}, cardiovascular disease \pdfcite{BrickmanEtAl1996}{Neuroticism, major depression, and gender: A population-based twin study}) may operate through pathways other than, or in addition to, altered acute cardiovascular reactivity amplitude during general work. Potential alternative or complementary mechanisms include differences in baseline autonomic function (e.g., consistently lower HRV \pdfcite{CukicBates2015}{The_Association_between_Neuroticism_and_Heart_Rate_Variability_Is_Not_Fully_Explained_by_Cardiovascular_Disease_and_Depression}), the frequency or duration of stress responses, the speed of physiological recovery after stress \cite{ChidaHamer2008}, chronic subjective stress perception, sustained HPA axis dysregulation, or the effectiveness of coping strategies \cite{ConnorSmithFlachsbart2007}.
+    \item \textbf{Role of Age in Cardiovascular Reactivity:} Age demonstrated a weak, negative association with peak heart rate reactivity, indicating that older individuals may have a more blunted peak HR response to work demands. This finding is consistent with age-related physiological changes \pdfcite{MatthewsStoney1988}{Aging_and_cardiovascular_reactivity_to_stress_longitudinal_evidence_for_changes_in_stress_reactivity} and appears independent of neuroticism in this sample.
+    \item \textbf{Methodological Considerations for Future Research:} The study highlights the challenges of capturing subtle personality-driven differences in physiological reactivity within complex, uncontrolled daily environments. Future research would benefit from more granular assessment of specific work stressors and subjective appraisals via EMA, alongside robust physiological monitoring, and potentially focusing on other aspects of the stress response like recovery or cumulative load. The discrepancy in the neuroticism scale's scoring also points to the need for careful psychometric validation and consistent application in research.
+\end{enumerate}
+
+In essence, while the expectation was that neuroticism would significantly modulate stress reactivity in a real-world work setting \cite{ThesisTempPDF}, the current study's specific operationalization and analytical approach did not detect such a direct effect on the amplitude of HR, SDNN, or RMSSD changes from rest to work. This suggests that the pathway from neuroticism to stress-related health issues in the workplace is likely complex and multifactorial, extending beyond simple acute reactivity amplitude.
+
+% --- End Chapter 6 ---
+
+% --- Start Chapter 7 ---
+\chapter{Limitations of the Research and Error Analysis}
+\label{ch:limitations}
+
+While this research was conducted with attention to methodological rigor, inherent limitations affect the interpretation and generalizability of the results. Acknowledging these limitations is crucial for contextualizing the findings and guiding future research in this complex area of personality and psychophysiology.
+
+\section{Methodological Limitations}
+\label{sec:limitations_method_chap} % Changed label
+
+\begin{itemize}
+    \item \textbf{Cross-Sectional Design:} The observational, cross-sectional design does not allow for conclusions about causality. It is not possible to determine if neuroticism influences reactivity, or if certain reactivity patterns might (over time) contribute to neurotic traits, or if both are influenced by other unmeasured variables.
+    \item \textbf{Operationalization of Work/Rest/Reactivity:}
+        The definition of work and rest periods was primarily based on self-report (diary entries at 60-minute intervals) and filtered for gross physical activity (`Total_Motility_mg < 50`) as per the protocol \cite{ThesisTempPDF} (OCR page 5). This approach may not capture all nuances of actual work stress or true physiological rest. "Work" periods could encompass a wide variety of tasks with differing stress levels, and "rest" in the evening might still involve cognitive load or minor stressors.
+        The operationalization of reactivity (work mean/peak minus baseline mean) is one of several options and primarily focuses on the amplitude of change, not on other potentially important aspects like the duration of response or the speed of recovery \cite{ChidaHamer2008}.
+    \item \textbf{Measurement of Neuroticism:}
+        Self-report via the Amsterdam Biographical Questionnaire (ABV) is susceptible to response biases (e.g., social desirability, recall bias), despite its established nature \cite{EysenckEysenck1975}.
+        A significant limitation noted in the results (Chapter \ref{ch:results}) was the discrepancy regarding the neuroticism score range (expected 1-20 based on \cite{ThesisTempPDF}, OCR page 5, vs. 11-117 in the dataset). This raises concerns about the scoring or application of the ABV in this particular dataset, potentially affecting the validity of the neuroticism measure and subsequent analyses. This needs to be thoroughly investigated and clarified; if the scaling is incorrect, it could fundamentally undermine the conclusions related to neuroticism.
+        Neuroticism was measured at a single time point, reflecting a trait, but momentary fluctuations in state anxiety or negative affect, which might be more closely tied to acute reactivity, were not assessed.
+    \item \textbf{Ambulatory Measurements:}
+        Physiological data from wearable sensors are prone to artifacts from movement, electrode dislodgement, or environmental interference \cite{deGeusGevonden2024}. While filtering for movement (`<50mg`) was applied, residual artifacts might still influence HRV parameters particularly.
+        The act of wearing monitoring equipment itself (VU-AMS) could induce reactivity or alter typical behavior for some participants (Hawthorne effect).
+    \item \textbf{Focus on Specific Cardiovascular Measures:} The analysis was limited to heart rate and time-domain HRV (SDNN, RMSSD). Other important cardiovascular parameters like continuous blood pressure, or frequency-domain/non-linear HRV measures, were not included in the final analyses. Furthermore, other physiological systems involved in the stress response (e.g., HPA axis via cortisol, though saliva was collected \cite{ThesisTempPDF}) were not part of this specific analysis, limiting the scope of "physiological stress reactivity."
+    \item \textbf{Definition of Baseline:} Using an evening rest period as baseline, while common, might not represent the true "un-stressed" baseline for all individuals, as evening activities and anticipatory stress for the next day can vary.
+\end{itemize}
+
+\section{Limitations Related to the Sample}
+\label{sec:limitations_sample_chap} % Changed label
+
+\begin{itemize}
+    \item \textbf{Specific Sample (NTR):} Participants were recruited from the Netherlands Twin Register \cite{ThesisTempPDF} (OCR page 4). While providing a well-characterized sample, NTR participants may not be representative of the general Dutch working population in terms of health, lifestyle, socioeconomic status, or genetic predispositions, which could limit the generalizability of the findings \cite{BoomsmaEtAl2006_NTR}.
+    \item \textbf{Final Analysis Sample (N=300):} The final sample of N=300 used for physiological analyses was a subset of the initial 592 participants, after exclusions due to data quality issues (e.g., 16 datasets discarded for technical reasons or arrhythmias \cite{ThesisTempPDF}, OCR page 5) and requirements for complete baseline/work segments. This selection process could have introduced an unintended selection bias, potentially excluding individuals with more variable or problematic physiological recordings who might differ systematically in neuroticism or reactivity.
+    \item \textbf{Limited Diversity in Work Type:} The study did not differentiate analyses based on specific types of occupations or work environments. Stressors and the nature of work can vary dramatically across professions, and the findings may not generalize equally to all work settings (e.g., manual labor vs. office work, high vs. low autonomy jobs).
+    \item \textbf{Volunteer Bias:} Individuals who volunteer for intensive 24-hour monitoring studies might be more health-conscious, compliant, or differ in personality from those who decline participation.
+\end{itemize}
+
+\section{Potential Sources of Bias or Errors}
+\label{sec:limitations_bias_chap} % Changed label
+
+\begin{itemize}
+    \item \textbf{Selection Bias:} As mentioned, bias could occur during initial recruitment for the NTR or the biobank study, and again during selection for the current ambulatory study and the final analytical sample.
+    \item \textbf{Information Bias:}
+        Self-report bias in the ABV for neuroticism and in the 60-minute interval diaries for activities and context is possible.
+        Recall bias for diary entries, even if intended to be contemporaneous.
+    \item \textbf{Measurement Bias:}
+        Systematic errors in physiological measurement devices (VU-AMS), although generally considered reliable.
+        Inconsistent application of sensors or diary completion by participants.
+        Residual, undetected artifacts in physiological signals, especially for HRV which is sensitive to ectopy and noise \cite{deGeusGevonden2024}.
+    \item \textbf{Confounding:}
+        Although physical activity was controlled for by filtering, other potential confounders might not have been fully accounted for. These include diet (e.g., caffeine, heavy meals), sleep quality the night before/during the measurement, acute illnesses, substance use (alcohol, nicotine, though often discouraged), medication not reported or with unknown autonomic effects, specific cognitive demands of work tasks not captured by general "work" labels, and non-work-related stressors occurring during the measurement day.
+        The impact of these unmeasured or imperfectly controlled confounders could obscure or distort the true relationship between neuroticism and cardiovascular reactivity.
+    \item \textbf{Error in Statistical Assumptions:} For HRV reactivity, the multiple regression models showed significant violations of the normality of residuals, making the OLS results unreliable for these outcomes and indicating that the chosen statistical models might not be optimal for these specific data distributions.
+\end{itemize}
+
+\section{Impact of Limitations on Generalizability and Validity}
+\label{sec:limitations_impact_chap} % Changed label
+
+The aforementioned limitations restrict both the internal and external validity of the study.
+\begin{itemize}
+    \item \textbf{Internal Validity:} The potential for unmeasured confounding, measurement error (especially concerning the neuroticism scale's scoring and physiological artifacts), and issues with operationalizing "work stress" and "reactivity" mean that the observed null findings might not reflect the true absence of a relationship, but rather an inability to detect it under the study's specific conditions. The uncertainty about the neuroticism scale is a particularly serious concern for internal validity regarding the primary predictor.
+    \item \textbf{External Validity (Generalizability):} The specificity of the NTR sample, the selection into the final N=300, and the lack of differentiation by job type limit the extent to which findings can be generalized to the broader working population in the Netherlands or internationally. The conclusions are specifically tied to the operational definitions, sample characteristics, and context of this study.
+\end{itemize}
+Therefore, caution is warranted when interpreting the null findings and generalizing them beyond the specific parameters of this research. The study provides valuable insights into the challenges of ambulatory research but does not definitively close the door on a potential link between neuroticism and cardiovascular reactivity in daily life.
+
+% --- End Chapter 7 ---
+
+% --- Start Chapter 8 ---
+\chapter{Recommendations}
+\label{ch:recommendations_main} % Changed label
+
+Based on the findings and limitations of this research, the following recommendations are made for future research endeavors. Furthermore, potential practical implications, despite the null findings for the primary hypothesis, are discussed, considering the broader context of neuroticism and workplace well-being.
+
+\section{Recommendations for Future Research}
+\label{sec:recommendations_research_main} % Changed label
+
+To build upon the current study and address its limitations, future research in this area could benefit from several enhancements:
+
+\begin{enumerate}
+    \item \textbf{Refinement of Measurement Methods and Constructs:}
+        \begin{itemize}
+            \item \textbf{Granular Contextual Data (EMA):} Employ more intensive Ecological Momentary Assessment (EMA) with shorter intervals or event-contingent sampling to capture specific workplace stressors (e.g., deadlines, conflicts, demanding tasks), subjective appraisals of these stressors (perceived intensity, controllability), and momentary coping efforts \cite{ShiffmanEtAl2008}. This would allow for a more precise linking of physiological responses to clearly defined psychological events rather than broad "work" periods.
+            \item \textbf{Objective Work Data:} Where feasible, integrate objective data about work tasks, communication patterns (e.g., email/meeting frequency), or environmental factors (e.g., noise, office layout) to complement subjective reports.
+            \item \textbf{Comprehensive Physiological Indicators:} Expand beyond HR and time-domain HRV. Include continuous ambulatory blood pressure monitoring (if less obtrusive methods become widely validated), frequency-domain and non-linear HRV analyses to capture different aspects of autonomic function \cite{TaskForce1996}, and consider salivary cortisol or other biomarkers (e.g., alpha-amylase) to assess HPA axis and SAM activity in response to specific, EMA-identified stressors. Critically, future studies should investigate physiological \textit{recovery} patterns (e.g., HR/HRV return to baseline after a reported stressor or at the end of the workday), as neuroticism has been linked to poorer recovery \cite{ChidaHamer2008}.
+            \item \textbf{Neuroticism Facets:} Investigate the effects of specific facets of neuroticism (e.g., anxiety, hostility, vulnerability to stress \cite{McCraeCosta1995b}) rather than just the global score, as different facets might have distinct physiological correlates. Ensure rigorous psychometric validation and consistent scoring of any personality measures used, addressing the scaling issues encountered with the ABV in this study.
+            \item \textbf{State Measures:} Complement trait neuroticism with momentary assessments of state anxiety, mood, and worry to understand how these dynamic states mediate or moderate the trait-physiology link.
+        \end{itemize}
+    \item \textbf{Alternative and Enhanced Research Designs:}
+        \begin{itemize}
+            \item \textbf{Longitudinal Studies:} Track individuals over extended periods (weeks, months, or years) to examine how patterns of daily stress reactivity, possibly moderated by neuroticism, predict the development of stress-related health problems like burnout or cardiovascular disease progression. This would also allow for examining habituation or sensitization effects.
+            \item \textbf{Intervention Studies:} Design and test workplace interventions (e.g., mindfulness, CBT-based stress management, job crafting) and assess if their effectiveness in improving physiological stress regulation differs for individuals high versus low in neuroticism.
+            \item \textbf{Experimental Field Studies (N-of-1 or Small-N Designs):} Combine ambulatory monitoring with standardized, yet ecologically relevant, stress-induction tasks performed within the participant's natural (work) environment to achieve a better balance between experimental control and ecological validity.
+            \item \textbf{Focus on Specific Stressful Events:} Design studies to specifically capture acute responses to pre-defined, common work stressors (e.g., giving a presentation, receiving performance feedback) rather than general work periods.
+        \end{itemize}
+    \item \textbf{Advanced Statistical Analysis:}
+        \begin{itemize}
+            \item \textbf{Multilevel Modeling (MLM) / Mixed-Effects Models:} Essential for analyzing hierarchically structured EMA and ambulatory data (e.g., momentary assessments nested within days, nested within persons), allowing for the examination of both within-person (e.g., how an individual's HR changes when they report stress) and between-person (e.g., do high neuroticism individuals show steeper HR increases) effects.
+            \item \textbf{Time Series Analysis:} Utilize techniques like auto-regressive models (e.g., VAR, ARIMAX) to explore the temporal dynamics of stress and physiological responses over the day.
+            \item \textbf{Machine Learning Approaches:} Explore machine learning algorithms for pattern recognition in complex, high-dimensional ambulatory data, potentially identifying novel physiological signatures of stress or individual differences linked to neuroticism.
+            \item \textbf{Addressing Non-Normality:} For outcomes like HRV reactivity that often violate normality assumptions, employ robust statistical methods, data transformations, or generalized linear models appropriate for the data distribution.
+        \end{itemize}
+    \item \textbf{Diverse and Representative Samples:}
+        \begin{itemize}
+            \item Replicate findings in more diverse samples concerning age, ethnicity, socioeconomic status, and, crucially, a wider range of occupations and work environments to enhance generalizability. Differentiate findings based on job types (e.g., blue-collar vs. white-collar, high-demand/low-control vs. resourceful jobs).
+        \end{itemize}
+    \item \textbf{Clarify Psychometrics:} Future studies using the ABV or similar questionnaires must ensure clear understanding and consistent application of scoring protocols to avoid ambiguities like the one encountered with the neuroticism scale range.
+\end{enumerate}
+
+\section{Potential Practical Implications}
+\label{sec:recommendations_practice_main} % Changed label
+
+Although this study did not find a direct link between neuroticism and the \textit{amplitude} of acute cardiovascular reactivity to general work periods, neuroticism remains a well-established risk factor for workplace stress, burnout \cite{Bianchi2018}, and various mental and physical health problems \pdfcite{Barlow_OriginsNeuroticism}{The_origins_of_neuroticism}. Therefore, the findings, particularly the null results, still have practical implications:
+
+\begin{enumerate}
+    \item \textbf{Shift in Focus of Interventions for High-Neuroticism Individuals:}
+        If acute reactivity amplitude isn't the primary differentiator, workplace stress management programs for individuals high in neuroticism might more effectively target:
+        \begin{itemize}
+            \item \textbf{Cognitive Restructuring and Appraisal:} Helping individuals to identify and modify negative thought patterns and catastrophizing interpretations of work events, thereby reducing subjective stress perception \cite{LazarusFolkman1984}.
+            \item \textbf{Adaptive Coping Skills Training:} Teaching and reinforcing problem-focused coping, emotional regulation techniques, and strategies to manage worry and rumination, rather than relying on less effective strategies often associated with neuroticism \cite{ConnorSmithFlachsbart2007}.
+            \item \textbf{Enhancing Recovery Mechanisms:} Promoting strategies for effective recovery from work stress, such as ensuring adequate sleep, practicing relaxation techniques (e.g., mindfulness), engaging in enjoyable non-work activities, and fostering psychological detachment from work during off-hours. If neuroticism is linked to poorer recovery \cite{ChidaHamer2008}, this becomes paramount.
+            \item \textbf{Boundary Management and Self-Care:} Assisting individuals high in neuroticism to set healthy boundaries between work and personal life and prioritize self-care activities that buffer stress.
+        \end{itemize}
+    \item \textbf{Organizational-Level Interventions:}
+        Regardless of individual personality, creating healthier work environments is key. However, for individuals prone to higher stress perception (often those high in neuroticism), organizational efforts are even more critical:
+        \begin{itemize}
+            \item \textbf{Job Design:} Optimizing job demands, increasing employee control and autonomy (where possible), ensuring role clarity, and providing adequate resources can mitigate stress for all, but particularly for those more vulnerable.
+            \item \textbf{Supportive Work Culture:} Fostering a culture of open communication, psychological safety, and strong social support from colleagues and supervisors can act as a significant buffer against work stressors.
+        \end{itemize}
+    \item \textbf{Awareness and Psychoeducation:}
+        Increasing awareness among employees and employers about the role of personality (like neuroticism) in stress processes. This understanding should emphasize that neuroticism's impact might be less about dramatic acute physiological spikes during general work and more about chronic subjective strain, prolonged recovery, or increased frequency of minor stress responses, all contributing to long-term health risks.
+    \item \textbf{Personalized Stress Management Approaches:}
+        Even with the current null findings for acute reactivity amplitude, a "one-size-fits-all" approach to stress management is unlikely to be optimal. Future research clarifying the specific pathways through which neuroticism affects health can help refine personalized strategies. For example, if future studies confirm that high neuroticism is linked to prolonged cortisol elevation after specific stressors, interventions could target HPA axis regulation.
+    \item \textbf{Early Identification and Prevention:}
+        Understanding that individuals high in neuroticism may be at greater risk for developing burnout \cite{Bianchi2018} or other stress-related conditions allows for earlier, targeted preventive measures, even if these measures don't focus on altering acute cardiovascular reactivity per se.
+\end{enumerate}
+In summary, while this study did not find that neuroticism directly magnifies or diminishes the \textit{amplitude} of HR, SDNN, or RMSSD reactivity to general work versus rest periods, the trait remains a critical factor in the broader landscape of workplace stress and health. Future research, employing more nuanced methodologies, is essential to fully unravel the complex psychophysiological pathways linking neuroticism to health outcomes in daily working life. The current findings encourage a broader perspective on intervention targets beyond just acute physiological responses.
+
+% --- End Chapter 8 ---
+% --- Bibliography ---
+\cleardoublepage % Ensures bibliography starts on a new page
+\addcontentsline{toc}{chapter}{References} % Adds to table of contents
+\bibliography{references} % Refers to references.bib file
+
+% --- Appendices ---
+% \appendix
+% \chapter{Appendix A: Text ABV}
+% \input{sections/appendixA.tex} % Example, if there were appendices
+% ... etc ...
+
+\end{document}

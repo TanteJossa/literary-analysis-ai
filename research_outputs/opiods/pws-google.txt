@@ -1,0 +1,344 @@
+The Opioid Crisis: A Comprehensive Scientific Literature Review and Analysis
+1. Executive Summary
+
+The opioid crisis represents a significant public health emergency with devastating consequences worldwide. This report provides a comprehensive analysis of opioids, encompassing their pharmacology, chemistry, global impact, the specific case of the oxycodone crisis, and current strategies for prevention and medical perspectives on prescribing. The crisis, which began with increased prescribing of opioids in the 1990s, has evolved through multiple waves, marked by surges in overdose deaths involving prescription opioids, heroin, and synthetic opioids like fentanyl. The report examines the key players involved, the public health consequences, and the portrayal of these events in popular media. Furthermore, it delves into current medical guidelines and the challenges faced by healthcare professionals in addressing pain management while mitigating the risks of opioid misuse and addiction.
+
+2. Introduction: Setting the Stage for the Opioid Crisis
+
+The history of opioid use for medicinal and recreational purposes spans millennia, with the opium poppy being cultivated as early as 3000 BC. Morphine, the principal active compound in opium, was first isolated in 1806, marking the true beginning of modern opioid pharmacology. The subsequent elucidation of morphine's chemical structure and advancements in drug administration, such as the invention of the hypodermic needle, facilitated its widespread clinical application. However, it was not until the late 20th century that a confluence of factors led to the current opioid crisis. In the 1990s, a significant increase in the prescribing of opioid medications, including newly formulated drugs like OxyContin, was driven by aggressive marketing campaigns and a growing emphasis on pain management within the medical community. This dramatic rise in opioid availability, documented by a fourfold increase in prescription opioid sales in the US between 1999 and 2010, created an environment that inadvertently fostered widespread misuse, addiction, and a surge in overdose deaths. This report aims to provide a comprehensive, evidence-based analysis of this complex crisis, examining its pharmacological and chemical underpinnings, its global dimensions, the specific trajectory of the oxycodone crisis, its portrayal in media, and the ongoing efforts to prevent further devastation.
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Understanding the Opioid Overdose Epidemic - CDC (https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html)
+
+3. Comprehensive Review of Opioid Pharmacology
+
+Opioids, a diverse class of analgesic agents, can be categorized based on their origin and mode of synthesis. Naturally occurring opioids, also known as opiates, such as morphine and codeine, are alkaloids directly derived from the opium poppy. Semi-synthetic opioids, including oxycodone and hydrocodone, are produced by chemically modifying these natural opiates. Finally, synthetic opioids, such as fentanyl and methadone, are entirely manufactured in the laboratory. The term "opioid" itself is a broad descriptor encompassing all substances, endogenous or exogenous, that exert their effects by interacting with opioid receptors in the body.
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Opioids primarily exert their effects by binding to specialized opioid receptors located in the central and peripheral nervous systems. The three main types of opioid receptors are mu (µ), delta (δ), and kappa (κ), each mediating a range of effects. A fourth receptor, the nociceptin/orphanin FQ peptide (NOP) receptor, is structurally related but does not typically mediate traditional opioid analgesic effects. These receptors are G protein-coupled receptors, and their activation triggers intracellular signaling pathways that ultimately modulate neuronal activity. Opioids produce analgesia through both presynaptic and postsynaptic mechanisms. Presynaptically, they inhibit the release of neurotransmitters involved in pain transmission, such as substance P and glutamate, by blocking calcium channels on nerve endings. Postsynaptically, they hyperpolarize nerve cells by opening potassium channels, making it more difficult for pain signals to be transmitted. The body also produces its own endogenous opioids (endorphins, enkephalins, dynorphins) that bind to these same receptors. Most clinically used opioid analgesics primarily target the mu-opioid receptor to produce pain relief.
+
+Physiology, Opioid Receptor - StatPearls - NCBI Bookshelf (https://www.ncbi.nlm.nih.gov/books/NBK546642/)
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Basic opioid pharmacology: an update - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC4590096/)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+The physiological effects of opioids are diverse and extend beyond analgesia. Activation of mu-receptors can lead to euphoria, sedation, and respiratory depression, as well as decreased gastrointestinal motility, resulting in constipation, and the development of physical dependence. Delta receptor activation may be associated with psychomimetic effects and dysphoria , while kappa receptor activation can produce analgesia, sedation, and dysphoric effects. Common side effects of opioids include drowsiness, confusion, nausea, and constipation. Due to the widespread distribution of opioid receptors, these drugs can also affect various bodily systems, including the endocrine and cardiovascular systems. Long-term opioid use can result in tolerance, requiring higher doses for the same effect, and dependence, leading to withdrawal symptoms upon cessation, as well as addiction, characterized by compulsive drug-seeking behavior. Furthermore, prolonged opioid therapy has been linked to significant adverse effects on the endocrine, immune, cardiovascular, respiratory, gastrointestinal, and neural systems, increasing the risk of fractures, infections, cardiovascular complications, sleep disorders, bowel dysfunction, overdose, and mortality. Opioids can also disrupt hormone levels, generally increasing growth hormone and prolactin while decreasing sex hormones , and have been associated with mood and anxiety symptoms.
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+Cardiovascular Complications of Opioid Use: JACC State-of-the-Art Review (https://www.jacc.org/doi/10.1016/j.jacc.2020.11.002)
+
+The Neurobiology of Opioid Dependence: Implications for Treatment - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC2851054/)
+
+Less well known consequences of the long-term use of opioid | DDDT - Dove Medical Press (https://www.dovepress.com/less-well-known-consequences-of-the-long-term-use-of-opioid-analgesics-peer-reviewed-fulltext-article-DDDT)
+
+Effects of Opioids and Opioid Analogs on Animal and Human Endocrine Systems (https://academic.oup.com/edrv/article/31/1/98/2354848)
+
+Mood and Anxiety Symptoms in Persons Taking Prescription Opioids: A Systematic Review with Meta-Analyses of Longitudinal Studies | Pain Medicine | Oxford Academic (https://academic.oup.com/painmedicine/article/23/8/1442/6529021)
+
+4. In-Depth Chemistry Analysis of Opioids
+
+Morphine, with the chemical formula C17H19NO3 , is a complex benzylisoquinoline alkaloid featuring a rigid pentacyclic structure. This structure includes a benzene ring, two cyclohexane rings forming a phenanthrene system, a piperidine ring, and a tetrahydrofuran ring connected via an ether linkage. Key functional groups include a double bond, a tertiary amine, and phenolic and allylic hydroxyl groups. The (-)-enantiomer with the (5R,6S,9R,13S,14R) configuration is solely responsible for its analgesic activity. The specific arrangement of these structural components and functional groups is crucial for morphine's interaction with the mu-opioid receptor. Minor modifications to morphine's structure, such as the methylation of the 3-OH group to form codeine or the acetylation of the 3- and 6-OH groups to produce heroin, significantly alter their pharmacological properties.
+
+Morphine | C17H19NO3 | CID 5288826 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/Morphine)
+
+Morphine Chemistry - News-Medical.net (https://www.news-medical.net/health/Morphine-Chemistry.aspx)
+
+www.news-medical.net (https://www.news-medical.net/health/Morphine-Chemistry.aspx#:~:text=Chemical%20structure%20and%20source,approximately%20in%20the%20same%20plane.)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Oxycodone, a semi-synthetic opioid derived from thebaine, has the chemical formula C18H21NO4. Structurally similar to morphine, oxycodone possesses an additional ketone group at the C6 position and a hydroxyl group at the C14 position. This structural difference enhances its oral bioavailability compared to morphine.
+
+Oxycodone | C18H21NO4 | CID 5284603 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/5284603)
+
+oxycodone | Ligand page | IUPHAR/BPS Guide to PHARMACOLOGY (https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7093)
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Fentanyl, with the chemical formula C22H28N2O , is a synthetic opioid belonging to the phenylpiperidine class. Its structure features a central piperidine ring with phenyl and propanamide groups attached. Fentanyl's high lipophilicity, a consequence of its chemical structure, allows it to rapidly cross the blood-brain barrier, contributing to its rapid onset of action and significantly greater potency (50-100 times that of morphine). Small alterations to fentanyl's chemical structure can lead to analogs with widely varying potencies.
+
+Fentanyl | C22H28N2O | CID 3345 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/Fentanyl)
+
+Fentanyl drug profile | www.euda.europa.eu (https://www.euda.europa.eu/publications/drug-profiles/fentanyl_en)
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+The activity of opioids is largely mediated by the interaction of specific functional groups with opioid receptors. A basic nitrogen atom and a phenol group are essential for receptor binding via hydrogen bonding. The positively charged amine group interacts with an anionic site on the receptor, and the aromatic ring engages in hydrogen bonding. Aliphatic substituents on the amine group also contribute to binding affinity and selectivity by fitting into a cavity within the receptor.
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Molecular basis of opioid action: from structures to new leads - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6898784/)
+
+Opioids undergo extensive metabolism in the liver. Morphine is primarily metabolized by glucuronidation to M3G and M6G, with M6G being a potent analgesic. Oxycodone is metabolized by CYP3A4/5 to noroxycodone and by CYP2D6 to oxymorphone, an active metabolite. Fentanyl is mainly metabolized by CYP3A4 to norfentanyl. Opioid metabolites can have their own pharmacological effects, with M3G potentially contributing to side effects and M6G to analgesia.
+
+Morphine-3-Glucuronide, Physiology and Behavior - Frontiers (https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2022.882443/full)
+
+PharmGKB summary: oxycodone pathway, pharmacokinetics - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6602093/)
+
+Fentanyl metabolism by human hepatic and intestinal cytochrome ... - PubMed (https://pubmed.ncbi.nlm.nih.gov/9311623/)
+
+Combining opioids with alcohol poses significant dangers due to their synergistic CNS depressant effects, leading to increased respiratory depression, sedation, and a heightened risk of overdose and death. Similarly, combining opioids with paracetamol, often found in combination medications, can increase the risk of liver damage, especially if high doses of paracetamol are used or if alcohol is also consumed.
+
+Cardiovascular Complications of Opioid Use: JACC State-of-the-Art Review (https://www.jacc.org/doi/10.1016/j.jacc.2020.11.002)
+
+Oxycodone and acetaminophen (oral route) - Mayo Clinic (https://www.mayoclinic.org/drugs-supplements/oxycodone-and-acetaminophen-oral-route/description/drg-20074000)
+
+5. Global Opioid Landscape: Production, Consumption, and Impact
+
+Based on global consumption data from 2015 to 2017, oxycodone emerged as the most widely used controlled opioid, accounting for approximately 35% of the total. Following oxycodone, morphine (15.9%), methadone (15.8%), and tilidine (13.9%) were also consumed in significant quantities. In terms of dosage, hydrocodone had the highest global consumption in 2010. Among synthetic opioids, fentanyl has been the most consumed in terms of doses. The consumption of tramadol has also seen a global increase between 2009 and 2019. Notably, the consumption of fentanyl and oxycodone declined in 2019.
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+www.unodc.org (https://www.unodc.org/documents/wdr/WDR_2010/2.0_Drug_statistics_and_Trends.pdf)
+
+Global consumption of prescription opioid analgesics between 2009-2019: a country-level observational study - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC8599097/)
+
+Less opioids, more cannabis used in 2019: UN's drug control body ... (https://www.incb.org/incb/en/news/news_2021/less-opioids--more-cannabis-used-in-2019_-uns-drug-control-body-incb-releases-annual-data-on-global-narcotics-production--use--trade--and-2021-needs.html)
+
+Globally, over 700 tonnes of controlled opioids were consumed between 2015 and 2017, averaging 32 mg per person annually. The Americas showed the highest average consumption (144 mg/person), followed by Oceania (132 mg/person), Europe (98 mg/person), Asia (3.5 mg/person), and Africa (1.4 mg/person). Countries with the highest per capita consumption included Germany, Iceland, the United States, and Canada. In 2019, an estimated 60 million people used opioids worldwide , with approximately 40.5 million being dependent in 2017. Opioid overdose deaths reached approximately 125,000 globally in 2019 , marking a significant increase from previous years. In 2021, around 60.4 million people engaged in non-medical opioid use , with South Asia being the largest consumer market for opiates. The United States stands out with a disproportionately high consumption rate. The global opioid consumption rate saw a decline between 2009 and 2019 , although disparities in access to opioid pain relief persist, particularly in lower-income countries. Fentanyl manufacture and consumption decreased in 2022 , but a significant portion of the world's population still has limited access to essential morphine for pain relief.
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+EU Drug Market: Heroin and other opioids — Global context | www ... (https://www.euda.europa.eu/publications/eu-drug-markets/heroin-and-other-opioids/global-context_en)
+
+Global patterns of opioid use and dependence: Population harms ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC7068135/)
+
+The Opioid Crisis in the United States: A Brief History | Congress.gov ... (https://www.congress.gov/crs-product/IF12260)
+
+Global consumption of prescription opioid analgesics between 2009-2019: a country-level observational study - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC8599097/)
+
+Global disparities persist in opioid painkiller access | UCL News (https://www.ucl.ac.uk/news/2022/mar/global-disparities-persist-opioid-painkiller-access)
+
+INCB Narcotic Drugs 2023 report notes inequalities in global access to pain medication (https://www.incb.org/incb/en/news/news_2024/incb-narcotic-drugs-2023-report-notes-downward-trend-in-fentanyl-and-cannabis--inequalities-in-global-access-to-pain-medication.html)
+
+Opioid overdose - World Health Organization (WHO) (https://www.who.int/news-room/fact-sheets/detail/opioid-overdose)
+
+Table 1: Annual Mean Consumption of Controlled Opioids (Tonnes) in 2015-2017
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+Opioid	Consumption (Tonnes)
+Oxycodone	234.3
+Morphine	112.9
+Methadone	112.2
+Tilidine	98.6
+Hydrocodone	42.4 (in 2010)
+Fentanyl	4.3 (in 2010)
+6. The Oxycodone Crisis: Origins, Progression, and Consequences
+
+The oxycodone crisis in the United States originated in the mid-1990s with a surge in opioid prescribing, significantly influenced by the introduction and aggressive marketing of OxyContin by Purdue Pharma in 1996. Marketed as a less addictive option due to its sustained-release formulation, OxyContin's widespread adoption fueled a dramatic increase in prescription opioid sales. This rise in availability directly correlated with increased opioid misuse and overdose deaths, marking the first wave of the opioid crisis. Key players in this crisis include Purdue Pharma and the Sackler family, particularly Richard Sackler, as well as medical professionals who were targeted by the company's marketing efforts and the FDA for its oversight.
+
+Understanding the Opioid Overdose Epidemic - CDC (https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html)
+
+Office of Public Affairs | Justice Department Announces Global ... (https://www.justice.gov/archives/opa/pr/justice-department-announces-global-resolution-criminal-and-civil-investigations-opioid)
+
+The public health consequences of the oxycodone crisis have been devastating. Opioid-involved overdose deaths have risen sharply since 1999. In 2022, over 81,000 opioid-involved deaths occurred in the US. Millions of Americans have misused prescription opioids , and a significant percentage of those treated for chronic pain with opioids develop addiction. The crisis has had a broad societal impact, including increased healthcare costs, reduced labor force participation, and strain on families and communities. The evolution of the crisis has also seen a shift towards heroin and synthetic opioids like fentanyl, further exacerbating the public health emergency.
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+The economic impact of the opioid epidemic - Brookings Institution (https://www.brookings.edu/articles/the-economic-impact-of-the-opioid-epidemic/)
+
+Understanding the Opioid Overdose Epidemic - CDC (https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html)
+
+Table 2: U.S. Opioid Overdose Deaths by Opioid Type (1999-2022)
+
+Products - Data Briefs - Number 491 - March 2024 - CDC (https://www.cdc.gov/nchs/products/databriefs/db491.htm)
+
+Drug Overdose Deaths in the United States, 2002–2022 - CDC (https://www.cdc.gov/nchs/products/databriefs/db491.htm)
+
+Year	Prescription Opioids	Heroin	Synthetic Opioids (primarily fentanyl)	Any Opioid
+1999	3,442	1,960	352	8,048
+2005	6,509	1,960	876	18,893
+2010	16,651	3,036	3,108	21,089
+2015	12,727	12,994	9,580	33,091
+2020	16,416	13,165	56,516	68,630
+2022	14,716	8,041	73,838	81,806
+7. "Dopesick": A Cinematic Lens on the Oxycodone Crisis
+
+"Dopesick," a miniseries available on Disney+ internationally and Hulu in the US, offers a dramatic portrayal of the opioid crisis, drawing inspiration from Beth Macy's non-fiction book. The series follows multiple storylines, including the introduction of OxyContin by Purdue Pharma, the impact on a Virginia mining community, and the efforts of law enforcement to investigate the crisis. Featuring a critically acclaimed cast led by Michael Keaton as a local doctor and Michael Stuhlbarg as Richard Sackler, "Dopesick" has been praised for its storytelling and performances.
+
+Dopesick: Dealers, Doctors, and the Drug Company ... - Amazon.com (https://www.amazon.com/Dopesick-Dealers-Doctors-Company-Addicted/dp/0316551244)
+
+en.wikipedia.org (https://en.wikipedia.org/wiki/Dopesick_(miniseries)#:~:text=Dopesick%20focuses%20on%20%22the%20epicenter,the%20United%20States%20Department%20of)
+
+Dopesick (TV Mini Series 2021) - IMDb (https://www.imdb.com/title/tt9174558/)
+
+While taking some dramatic liberties and using composite characters, "Dopesick" is largely based on factual events. The series accurately depicts Purdue Pharma's aggressive marketing tactics and its efforts to downplay the addictive nature of OxyContin. The portrayal of Richard Sackler as a key figure in the crisis aligns with real-world accounts. The devastating impact on rural communities, particularly in Appalachia, is also a central theme in both the series and the real-world crisis. While some argue that "Dopesick" oversimplifies the complexities of the crisis and may contain some minor factual inaccuracies , it is generally considered a more fact-based portrayal compared to other series like "Painkiller". "Dopesick" serves as a powerful medium for raising public awareness about the oxycodone crisis and its far-reaching consequences.
+
+Is Dopesick a True Story? - Avenues Recovery (https://www.avenuesrecovery.com/understanding-addiction/common-addiction-questions/is-dopesick-a-true-story/)
+
+Richard Sackler - Wikipedia (https://en.wikipedia.org/wiki/Richard_Sackler)
+
+Viewpoint: The Complex Truth of the Opioid Epidemic – What the ... (https://www.rgrdlaw.com/news-item-Viewpoint-the-Complex-Truth-of-the-Opioid-Epidemic.html)
+
+Hulu's 'Dopesick' is Fiction - Judge for Yourselves (https://www.judgeforyourselves.info/key-points/hulus-dopesick-is-fiction/)
+
+Painkiller vs. Dopesick: Which TV Show Is More Accurate About The Opioid Crisis (https://screenrant.com/painkiller-dopesick-series-opioid-crisis-more-accurate/)
+
+8. Prevention Strategies and Medical Perspectives on Opioid Prescribing
+
+Efforts to prevent opioid misuse and addiction encompass a range of strategies. Prescription monitoring programs (PDMPs) are widely implemented to track controlled substance prescriptions, aiding in the identification of at-risk patients and preventing doctor shopping. A multimodal approach to pain management, emphasizing non-opioid medications and non-pharmacological therapies like physical therapy, acupuncture, massage, meditation, and yoga, is increasingly advocated. Public health initiatives focus on education regarding safe opioid use and disposal, increasing access to naloxone for overdose reversal, harm reduction strategies, and medication-assisted treatment (MAT) for opioid use disorder.
+
+Prescription Drug Monitoring Programs (PDMPs) | Overdose ... - CDC (https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/prescription-drug-monitoring-programs.html)
+
+Non-Drug Pain Management: MedlinePlus (https://medlineplus.gov/nondrugpainmanagement.html)
+
+Medical perspectives on opioid prescribing have evolved significantly. There has been a nationwide decrease in opioid prescribing rates , accompanied by increased use of PDMPs. Doctors are now more cautious about prescribing opioids, balancing pain management with the risks of addiction and overdose. Current guidelines emphasize a multimodal approach, prioritizing non-opioid therapies and recommending the lowest effective dose and short durations for acute pain. Many doctors express concerns about the challenges in managing chronic non-cancer pain and the stigma faced by patients requiring opioids.
+
+Opioid Prescribing Has Significantly Decreased in Primary Care ... (https://www.aafp.org/pubs/afp/issues/2024/1200/graham-center-opioid-prescribing.html)
+
+Non-Drug Pain Management: MedlinePlus (https://medlineplus.gov/nondrugpainmanagement.html)
+
+General practitioners' attitudes towards opioids for non-cancer pain ... (https://bmjopen.bmj.com/content/12/2/e054945)
+
+Table 3: Initial Opioid Prescription Limits and Policies by State (as of January 2021)
+
+Opioid prescription limits and policies by state - Ballotpedia (https://ballotpedia.org/Opioid_prescription_limits_and_policies_by_state)
+
+State	Adult Initial Limit	Minor Initial Limit	PDMP Mandate	CME Requirement for Opioid Prescribing
+Alaska	7 days	7 days	30 MME or less: consistent with good practice; >90 MME: every time	2 hours every 2 years
+Arizona	5 days	5 days	Prior to prescribing	None specified
+Connecticut	7 days	5 days	Prior to initial prescription and every 90 days ongoing	3 hours (one-time)
+Ohio	7 days	5 days	Prior to prescribing	2 hours
+9. Conclusion: Navigating the Complexities of the Opioid Crisis
+
+The opioid crisis is a multifaceted public health emergency with deep historical roots, complex pharmacological and chemical underpinnings, and devastating global and societal consequences. The oxycodone crisis, ignited by aggressive marketing and over-prescription, serves as a stark example of the potential harms associated with opioid use. While there has been progress in reducing opioid prescribing rates and implementing prevention strategies, the crisis continues to evolve, driven by the proliferation of highly potent synthetic opioids. Healthcare professionals face ongoing challenges in providing effective pain management while mitigating the risks of addiction and overdose. Continued research, comprehensive prevention strategies, and a balanced approach to opioid prescribing, informed by evidence-based guidelines and a deep understanding of the complexities of pain and addiction, are crucial to navigating this ongoing crisis and ultimately reducing its devastating impact on individuals and communities worldwide.
+
+
+Here are the sources used in the report, formatted as requested:
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Understanding the Opioid Overdose Epidemic - CDC (https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html)
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Physiology, Opioid Receptor - StatPearls - NCBI Bookshelf (https://www.ncbi.nlm.nih.gov/books/NBK546642/)
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Basic opioid pharmacology: an update - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC4590096/)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+Cardiovascular Complications of Opioid Use: JACC State-of-the-Art Review (https://www.jacc.org/doi/10.1016/j.jacc.2020.11.002)
+
+The Neurobiology of Opioid Dependence: Implications for Treatment - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC2851054/)
+
+Less well known consequences of the long-term use of opioid | DDDT - Dove Medical Press (https://www.dovepress.com/less-well-known-consequences-of-the-long-term-use-of-opioid-analgesics-peer-reviewed-fulltext-article-DDDT)
+
+Effects of Opioids and Opioid Analogs on Animal and Human Endocrine Systems (https://academic.oup.com/edrv/article/31/1/98/2354848)
+
+Mood and Anxiety Symptoms in Persons Taking Prescription Opioids: A Systematic Review with Meta-Analyses of Longitudinal Studies | Pain Medicine | Oxford Academic (https://academic.oup.com/painmedicine/article/23/8/1442/6529021)
+
+Morphine | C17H19NO3 | CID 5288826 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/Morphine)
+
+Morphine Chemistry - News-Medical.net (https://www.news-medical.net/health/Morphine-Chemistry.aspx)
+
+www.news-medical.net (https://www.news-medical.net/health/Morphine-Chemistry.aspx#:~:text=Chemical%20structure%20and%20source,approximately%20in%20the%20same%20plane.)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Oxycodone | C18H21NO4 | CID 5284603 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/5284603)
+
+oxycodone | Ligand page | IUPHAR/BPS Guide to PHARMACOLOGY (https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7093)
+
+Opioids: Pharmacology and Epidemiology - SciELO México (https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-33802020000100104)
+
+Fentanyl | C22H28N2O | CID 3345 - PubChem (https://pubchem.ncbi.nlm.nih.gov/compound/Fentanyl)
+
+Fentanyl drug profile | www.euda.europa.eu (https://www.euda.europa.eu/publications/drug-profiles/fentanyl_en)
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+Opioid receptors | Introduction | BPS/IUPHAR Guide to ... (https://www.guidetopharmacology.org/GRAC/FamilyIntroductionForward?familyId=50)
+
+Molecular basis of opioid action: from structures to new leads - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6898784/)
+
+Morphine-3-Glucuronide, Physiology and Behavior - Frontiers (https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2022.882443/full)
+
+PharmGKB summary: oxycodone pathway, pharmacokinetics - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6602093/)
+
+Fentanyl metabolism by human hepatic and intestinal cytochrome ... - PubMed (https://pubmed.ncbi.nlm.nih.gov/9311623/)
+
+Cardiovascular Complications of Opioid Use: JACC State-of-the-Art Review (https://www.jacc.org/doi/10.1016/j.jacc.2020.11.002)
+
+Oxycodone and acetaminophen (oral route) - Mayo Clinic (https://www.mayoclinic.org/drugs-supplements/oxycodone-and-acetaminophen-oral-route/description/drg-20074000)
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+www.unodc.org (https://www.unodc.org/documents/wdr/WDR_2010/2.0_Drug_statistics_and_Trends.pdf)
+
+Global consumption of prescription opioid analgesics between 2009-2019: a country-level observational study - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC8599097/)
+
+Less opioids, more cannabis used in 2019: UN's drug control body ... (https://www.incb.org/incb/en/news/news_2021/less-opioids--more-cannabis-used-in-2019_-uns-drug-control-body-incb-releases-annual-data-on-global-narcotics-production--use--trade--and-2021-needs.html)
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+EU Drug Market: Heroin and other opioids — Global context | www ... (https://www.euda.europa.eu/publications/eu-drug-markets/heroin-and-other-opioids/global-context_en)
+
+Global patterns of opioid use and dependence: Population harms ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC7068135/)
+
+The Opioid Crisis in the United States: A Brief History | Congress.gov ... (https://www.congress.gov/crs-product/IF12260)
+
+Global consumption of prescription opioid analgesics between 2009-2019: a country-level observational study - PubMed Central (https://pmc.ncbi.nlm.nih.gov/articles/PMC8599097/)
+
+Global disparities persist in opioid painkiller access | UCL News (https://www.ucl.ac.uk/news/2022/mar/global-disparities-persist-opioid-painkiller-access)
+
+INCB Narcotic Drugs 2023 report notes inequalities in global access to pain medication (https://www.incb.org/incb/en/news/news_2024/incb-narcotic-drugs-2023-report-notes-downward-trend-in-fentanyl-and-cannabis--inequalities-in-global-access-to-pain-medication.html)
+
+Opioid overdose - World Health Organization (WHO) (https://www.who.int/news-room/fact-sheets/detail/opioid-overdose)
+
+Global, regional, and national consumption of controlled opioids: a ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC8801686/)
+
+Understanding the Opioid Overdose Epidemic - CDC (https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html)
+
+Office of Public Affairs | Justice Department Announces Global ... (https://www.justice.gov/archives/opa/pr/justice-department-announces-global-resolution-criminal-and-civil-investigations-opioid)
+
+Opioids: What They Are, Side Effects & Disorders - Cleveland Clinic (https://my.clevelandclinic.org/health/drugs/21127-opioids)
+
+The economic impact of the opioid epidemic - Brookings Institution (https://www.brookings.edu/articles/the-economic-impact-of-the-opioid-epidemic/)
+
+Products - Data Briefs - Number 491 - March 2024 - CDC (https://www.cdc.gov/nchs/products/databriefs/db491.htm)
+
+Drug Overdose Deaths in the United States, 2002–2022 - CDC (https://www.cdc.gov/nchs/products/databriefs/db491.htm)
+
+Dopesick: Dealers, Doctors, and the Drug Company ... - Amazon.com (https://www.amazon.com/Dopesick-Dealers-Doctors-Company-Addicted/dp/0316551244)
+
+en.wikipedia.org (https://en.wikipedia.org/wiki/Dopesick_(miniseries)#:~:text=Dopesick%20focuses%20on%20%22the%20epicenter,the%20United%20States%20Department%20of)
+
+Dopesick (TV Mini Series 2021) - IMDb (https://www.imdb.com/title/tt9174558/)
+
+Is Dopesick a True Story? - Avenues Recovery (https://www.avenuesrecovery.com/understanding-addiction/common-addiction-questions/is-dopesick-a-true-story/)
+
+Richard Sackler - Wikipedia (https://en.wikipedia.org/wiki/Richard_Sackler)
+
+Viewpoint: The Complex Truth of the Opioid Epidemic – What the ... (https://www.rgrdlaw.com/news-item-Viewpoint-the-Complex-Truth-of-the-Opioid-Epidemic.html)
+
+Hulu's 'Dopesick' is Fiction - Judge for Yourselves (https://www.judgeforyourselves.info/key-points/hulus-dopesick-is-fiction/)
+
+Painkiller vs. Dopesick: Which TV Show Is More Accurate About The Opioid Crisis (https://screenrant.com/painkiller-dopesick-series-opioid-crisis-more-accurate/)
+
+Prescription Drug Monitoring Programs (PDMPs) | Overdose ... - CDC (https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/prescription-drug-monitoring-programs.html)
+
+Non-Drug Pain Management: MedlinePlus (https://medlineplus.gov/nondrugpainmanagement.html)
+
+Opioid Prescribing Has Significantly Decreased in Primary Care ... (https://www.aafp.org/pubs/afp/issues/2024/1200/graham-center-opioid-prescribing.html)
+
+General practitioners' attitudes towards opioids for non-cancer pain ... (https://bmjopen.bmj.com/content/12/2/e054945)
+
+Opioid prescription limits and policies by state - Ballotpedia (https://ballotpedia.org/Opioid_prescription_limits_and_policies_by_state)
