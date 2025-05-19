@@ -1,0 +1,2499 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Albery1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=313763d739ae241a617665bd6a682c14}{%
+           family={Albery},
+           familyi={A\bibinitperiod},
+           given={I.\bibnamedelimi P.},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c60282d8177246e53e3c67db31d742f}{%
+           family={Adisesh},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{fullhash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{fullhashraw}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{bibnamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorbibnamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authornamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorfullhash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorfullhashraw}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Psychology}
+      \field{number}{3}
+      \field{title}{Alcohol and memory: A review of findings and issues}
+      \field{volume}{18}
+      \field{year}{1999}
+      \field{pages}{293\bibrangedash 310}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s12144-999-1011-2
+      \endverb
+    \endentry
+    \entry{Baddeley1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13d83892d8629b0121e6e18a524bbd44}{%
+           family={Baddeley},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Psychology Press}%
+      }
+      \strng{namehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{fullhash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{fullhashraw}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{bibnamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorbibnamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authornamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorfullhash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorfullhashraw}{13d83892d8629b0121e6e18a524bbd44}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Human Memory: Theory and Practice}
+      \field{year}{1997}
+    \endentry
+    \entry{Bliss1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=16a9192f76f7eaade5ab1c788ad3f503}{%
+           family={Bliss},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi V.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb3d1b1c65cf2d986676781aa82b58cd}{%
+           family={Collingridge},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{fullhash}{66858a2cac4358568e5d90c30078be52}
+      \strng{fullhashraw}{66858a2cac4358568e5d90c30078be52}
+      \strng{bibnamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorbibnamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authornamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorfullhash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorfullhashraw}{66858a2cac4358568e5d90c30078be52}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6407}
+      \field{title}{A synaptic model of memory: Long-term potentiation in the hippocampus}
+      \field{volume}{361}
+      \field{year}{1993}
+      \field{pages}{31\bibrangedash 39}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/361031a0
+      \endverb
+    \endentry
+    \entry{Bruce1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ad1a1f119d5226fa209d1c740108c7c8}{%
+           family={Bruce},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2356cd34a7f8f0bab06d6e56b187f41}{%
+           family={Pihl},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{fullhash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{fullhashraw}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{bibnamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorbibnamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authornamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorfullhash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorfullhashraw}{3557dbf62b51d2ee36c0931992c700a2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Studies on Alcohol}
+      \field{number}{5}
+      \field{title}{Alcohol and retrograde memory enhancement: it's a matter of time and task}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{pages}{702\bibrangedash 705}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.15288/jsa.1999.60.702
+      \endverb
+    \endentry
+    \entry{Duff2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7f73b4d7af4d44c453c4bfe070abe19d}{%
+           family={Duff},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cd754415a2138d5b513b3072c22a0c3}{%
+           family={Logue},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{fullhash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{fullhashraw}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{bibnamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorbibnamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authornamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorfullhash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorfullhashraw}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Addictive Behaviors}
+      \field{number}{1}
+      \field{title}{The effects of post-learning ethanol on retroactive interference}
+      \field{volume}{34}
+      \field{year}{2009}
+      \field{pages}{110\bibrangedash 113}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.addbeh.2008.08.003
+      \endverb
+    \endentry
+    \entry{Fein2006}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0398569e9f2c420f37f0e9334174d5aa}{%
+           family={Fein},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=078567407aeca6c34c23d972daa0915a}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcdf48e2ec4bf40646aba095f4290932}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2e949d2e43704913f45ba7440b4edee}{%
+           family={Di\bibnamedelima Sclafani},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{271ef02d6396f6d7608c631e90f540a6}
+      \strng{fullhash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{fullhashraw}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{bibnamehash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authorbibnamehash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authornamehash}{271ef02d6396f6d7608c631e90f540a6}
+      \strng{authorfullhash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authorfullhashraw}{265814520fd2eccbb74997cc68ab5c28}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{number}{9}
+      \field{title}{Cognitive performance in long-term abstinent alcoholics}
+      \field{volume}{30}
+      \field{year}{2006}
+      \field{pages}{1538\bibrangedash 1544}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.2006.00189.x
+      \endverb
+    \endentry
+    \entry{Goodwin1973}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=794f5c15b3fcfc14cb3be923f4ee0c23}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{fullhash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{fullhashraw}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{bibnamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorbibnamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authornamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorfullhash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorfullhashraw}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alcoholic "blackouts": A review and clinical study of 100 alcoholics}
+      \field{year}{1973}
+    \endentry
+    \entry{Goodwin1969}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=794f5c15b3fcfc14cb3be923f4ee0c23}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08b7d5e232fc0144fcc9b137951ce45f}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e11676933994b902660818b574ca4969}{%
+           family={Bremer},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc09fcd0e76a9d87905aeb57d8a39ef5}{%
+           family={Hoine},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fba841d75acc12b0a126b3e8ee74aaa}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{139777273269d30c6c64992905d19514}
+      \strng{fullhash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{fullhashraw}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{bibnamehash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authorbibnamehash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authornamehash}{139777273269d30c6c64992905d19514}
+      \strng{authorfullhash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authorfullhashraw}{782d4ecee9ded2688e988636c5e020e6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3873}
+      \field{title}{Alcohol and recall: State-dependent effects in man}
+      \field{volume}{163}
+      \field{year}{1969}
+      \field{pages}{1358\bibrangedash 1360}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.163.3873.1358
+      \endverb
+    \endentry
+    \entry{Hasselmo2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7cf8ffdb9bfe6b4f4f297f5b29d1136a}{%
+           family={Hasselmo},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{fullhash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{fullhashraw}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{bibnamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorbibnamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authornamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorfullhash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorfullhashraw}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Opinion in Neurobiology}
+      \field{number}{2}
+      \field{title}{The role of acetylcholine in learning and memory}
+      \field{volume}{12}
+      \field{year}{2002}
+      \field{pages}{184\bibrangedash 189}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S0959-4388(02)00308-0
+      \endverb
+    \endentry
+    \entry{Hewitt1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c2a225676933b7fe4c5da2de085500aa}{%
+           family={Hewitt},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2356cd34a7f8f0bab06d6e56b187f41}{%
+           family={Pihl},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{fullhash}{581e2056570083e30c2395fcb1f07516}
+      \strng{fullhashraw}{581e2056570083e30c2395fcb1f07516}
+      \strng{bibnamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorbibnamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authornamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorfullhash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorfullhashraw}{581e2056570083e30c2395fcb1f07516}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Studies on Alcohol}
+      \field{number}{4}
+      \field{title}{The effects of alcohol on memory: a review of interference and consolidation processes}
+      \field{volume}{56}
+      \field{year}{1995}
+      \field{pages}{467\bibrangedash 475}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.15288/jsa.1995.56.467
+      \endverb
+    \endentry
+    \entry{Knowles1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c6e196894cd9243cf28cbca6dc1cdddb}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9314458e56f0dee64b82ec9f519b299d}{%
+           family={Nathan},
+           familyi={N\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{fullhash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{fullhashraw}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{bibnamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorbibnamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authornamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorfullhash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorfullhashraw}{74f188c7b8647d8ebfe77d2e3903281a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{Alcohol and Memory: A Review}
+      \field{volume}{109}
+      \field{year}{1991}
+      \field{pages}{312\bibrangedash 325}
+      \range{pages}{14}
+    \endentry
+    \entry{Lamberty1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80d66d4b4112696a8b121f0d6a40fb84}{%
+           family={Lamberty},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab35dbc2c253a5a67c91312d9ceb5517}{%
+           family={Vagge},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{681de818938201027648871273d14050}
+      \strng{fullhash}{681de818938201027648871273d14050}
+      \strng{fullhashraw}{681de818938201027648871273d14050}
+      \strng{bibnamehash}{681de818938201027648871273d14050}
+      \strng{authorbibnamehash}{681de818938201027648871273d14050}
+      \strng{authornamehash}{681de818938201027648871273d14050}
+      \strng{authorfullhash}{681de818938201027648871273d14050}
+      \strng{authorfullhashraw}{681de818938201027648871273d14050}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychopharmacology}
+      \field{number}{3}
+      \field{title}{Post-acquisition ethanol enhances retention of an appetitive task}
+      \field{volume}{100}
+      \field{year}{1990}
+      \field{pages}{353\bibrangedash 358}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/BF02245715
+      \endverb
+    \endentry
+    \entry{Lovinger1997}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a65517db681586c28e8ec46f0909436}{%
+           family={Lovinger},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{fullhash}{6a65517db681586c28e8ec46f0909436}
+      \strng{fullhashraw}{6a65517db681586c28e8ec46f0909436}
+      \strng{bibnamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorbibnamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authornamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorfullhash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorfullhashraw}{6a65517db681586c28e8ec46f0909436}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NaunynSchmiedeberg's Archives of Pharmacology}
+      \field{number}{3}
+      \field{title}{Alcohols and neurotransmitter gated ion channels past, present and future}
+      \field{volume}{356}
+      \field{year}{1997}
+      \field{pages}{267\bibrangedash 282}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/PL00005032
+      \endverb
+    \endentry
+    \entry{McGaugh2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db01f87806e21af9f0aec741fe4d2f09}{%
+           family={McGaugh},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{fullhash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{fullhashraw}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{bibnamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorbibnamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authornamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorfullhash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorfullhashraw}{db01f87806e21af9f0aec741fe4d2f09}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5451}
+      \field{title}{Memory--a century of consolidation}
+      \field{volume}{287}
+      \field{year}{2000}
+      \field{pages}{248\bibrangedash 251}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.287.5451.248
+      \endverb
+    \endentry
+    \entry{Moss2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ed538ff70c2b96d5d6b86d6e33aaa70d}{%
+           family={Moss},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa9b7a400f216cd933cb4f2bc727418a}{%
+           family={Kirisci},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=425143f4967f97883f7706dd05e01f22}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi W.},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4802b8645d5a9546284ff2e44e53753c}{%
+           family={Tarter},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a3a314647f1b6e9ad480a231ef53d8d}
+      \strng{fullhash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{fullhashraw}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{bibnamehash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authorbibnamehash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authornamehash}{6a3a314647f1b6e9ad480a231ef53d8d}
+      \strng{authorfullhash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authorfullhashraw}{de7186251081ca66a465ac1b5bf4c44c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{title}{A neuropsychologic profile of adolescent alcoholics}
+      \field{volume}{18}
+      \field{year}{2007}
+      \field{pages}{159\bibrangedash 164}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.1994.tb00004.x
+      \endverb
+    \endentry
+    \entry{Mueller1983}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce89060d79e7bf348bdbcd242a4cf1a5}{%
+           family={Lisman},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fe340c54a84c5caf9b957d3d174a232}{%
+           family={Spear},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15a6a17245fb5ca8cf1d2a642b39f99c}
+      \strng{fullhash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{fullhashraw}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{bibnamehash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authorbibnamehash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authornamehash}{15a6a17245fb5ca8cf1d2a642b39f99c}
+      \strng{authorfullhash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authorfullhashraw}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{Alcohol and memory: A review and integration}
+      \field{volume}{93}
+      \field{year}{1983}
+      \field{pages}{487\bibrangedash 507}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/0033-2909.93.3.487
+      \endverb
+    \endentry
+    \entry{NIAAA2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=230439a83e5f95cc78803e076b338765}{%
+           family={{National Institute on Alcohol Abuse and Alcoholism}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{230439a83e5f95cc78803e076b338765}
+      \strng{fullhash}{230439a83e5f95cc78803e076b338765}
+      \strng{fullhashraw}{230439a83e5f95cc78803e076b338765}
+      \strng{bibnamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorbibnamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authornamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorfullhash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorfullhashraw}{230439a83e5f95cc78803e076b338765}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Alert}
+      \field{number}{48}
+      \field{title}{Alcohol and women}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://pubs.niaaa.nih.gov/publications/aa48.htm
+      \endverb
+      \verb{url}
+      \verb https://pubs.niaaa.nih.gov/publications/aa48.htm
+      \endverb
+    \endentry
+    \entry{OscarBerman2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ba4d2afb91b7a6ffcd80988c425a4202}{%
+           family={Oscar-Berman},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb2eccdba8baa34013ea9025eaa07903}{%
+           family={Marinkovic},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{fullhash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{fullhashraw}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{bibnamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorbibnamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authornamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorfullhash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorfullhashraw}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Research \& Health}
+      \field{number}{2}
+      \field{title}{Alcoholism and the brain: An overview}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{125\bibrangedash 133}
+      \range{pages}{9}
+    \endentry
+    \entry{Parker1976}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3f637d5e463f63e492bc15dcad240ca}{%
+           family={Birnbaum},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=058cc4639264a0110972000614ee636f}{%
+           family={Noble},
+           familyi={N\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{fullhashraw}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{bibnamehash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authorbibnamehash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authorfullhashraw}{0ef0342d0887045a433d1a1ec743155f}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Verbal Learning and Verbal Behavior}
+      \field{number}{6}
+      \field{title}{Alcohol and memory: Storage and state dependency}
+      \field{volume}{15}
+      \field{year}{1976}
+      \field{pages}{691\bibrangedash 702}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/0022-5371(76)90071-3
+      \endverb
+    \endentry
+    \entry{Parker1980}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3f637d5e463f63e492bc15dcad240ca}{%
+           family={Birnbaum},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2172c501565f89f770842580b97ddcc}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570bc0514c4f21a77fb95938d31f2f68}{%
+           family={Stillman},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08e227c373dfa2755f31f1879e165a7e}{%
+           family={Wyatt},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{fullhashraw}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{bibnamehash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authorbibnamehash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authorfullhashraw}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychopharmacology}
+      \field{number}{2}
+      \field{title}{Retrograde Enhancement of Human Memory with Alcohol}
+      \field{volume}{69}
+      \field{year}{1980}
+      \field{pages}{219\bibrangedash 222}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/BF00428300
+      \endverb
+    \endentry
+    \entry{Parker1981}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94b63e110bc6e68dfc913311081182d}{%
+           family={Morihisa},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08e227c373dfa2755f31f1879e165a7e}{%
+           family={Wyatt},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570bc0514c4f21a77fb95938d31f2f68}{%
+           family={Stillman},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{7367594e683338ba17648689b786f165}
+      \strng{fullhashraw}{7367594e683338ba17648689b786f165}
+      \strng{bibnamehash}{7367594e683338ba17648689b786f165}
+      \strng{authorbibnamehash}{7367594e683338ba17648689b786f165}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{7367594e683338ba17648689b786f165}
+      \strng{authorfullhashraw}{7367594e683338ba17648689b786f165}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{number}{4}
+      \field{title}{The alcohol facilitation of memory: a dose-response study}
+      \field{volume}{5}
+      \field{year}{1981}
+      \field{pages}{610\bibrangedash 614}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.1981.tb04904.x
+      \endverb
+    \endentry
+    \entry{Rehm2009}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d9b8560f47e74175b13d92c2c1216b9e}{%
+           family={Rehm},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47f21e37feb749dbcadedd44f37a4bc0}{%
+           family={Mathers},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffb7266c9452f3621b75dafc9d72ba8}{%
+           family={Popova},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d52ed07c8aaaf74c29dad522911c285c}{%
+           family={Thavorncharoensap},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=434f858e1d8cac739febabaec5f7e593}{%
+           family={Teerawattananon},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0adb9c9dc6c22a6bef87ebf5c0b2b079}{%
+           family={Patra},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f28fcac130b4e7df6a7a22b40933140}
+      \strng{fullhash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{fullhashraw}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{bibnamehash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authorbibnamehash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authornamehash}{0f28fcac130b4e7df6a7a22b40933140}
+      \strng{authorfullhash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authorfullhashraw}{31bf806a811112c7a7dd408a0e83837e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet}
+      \field{number}{9682}
+      \field{title}{Global burden of disease and injury and economic cost attributable to alcohol use and alcohol-use disorders}
+      \field{volume}{373}
+      \field{year}{2009}
+      \field{pages}{2223\bibrangedash 2233}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(09)60746-7
+      \endverb
+    \endentry
+    \entry{Roozendaal2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=471a27b18f78f28c6fde246820191ea3}{%
+           family={Roozendaal},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db01f87806e21af9f0aec741fe4d2f09}{%
+           family={McGaugh},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{fullhash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{fullhashraw}{7878eaff26211455663df9f563d2e2e7}
+      \strng{bibnamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorbibnamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authornamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorfullhash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorfullhashraw}{7878eaff26211455663df9f563d2e2e7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral Neuroscience}
+      \field{number}{3}
+      \field{title}{Memory modulation}
+      \field{volume}{123}
+      \field{year}{2009}
+      \field{pages}{677\bibrangedash 694}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/a0015891
+      \endverb
+    \endentry
+    \entry{Ryback1971}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c1d7597161049970762ef0edc405713}{%
+           family={Ryback},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c1d7597161049970762ef0edc405713}
+      \strng{fullhash}{8c1d7597161049970762ef0edc405713}
+      \strng{fullhashraw}{8c1d7597161049970762ef0edc405713}
+      \strng{bibnamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorbibnamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authornamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorfullhash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorfullhashraw}{8c1d7597161049970762ef0edc405713}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Studies on Alcohol}
+      \field{number}{4}
+      \field{title}{Alcohol amnesia: A review and analysis}
+      \field{volume}{32}
+      \field{year}{1971}
+      \field{pages}{995\bibrangedash 1016}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.15288/qjsa.1971.32.995
+      \endverb
+    \endentry
+    \entry{Stephens2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=59c04ba0f3a5582a043cdc0943f03674}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adf3d071ffb20dab91a8407e4923b488}{%
+           family={Duka},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{fullhash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{fullhashraw}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{bibnamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorbibnamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authornamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorfullhash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorfullhashraw}{3e2c74c449cc6710415b62de3c0b8965}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pharmacology Biochemistry and Behavior}
+      \field{number}{3}
+      \field{title}{Review. Cognitive and motivational influences of alcohol: a critical review of behavioural effects}
+      \field{volume}{91}
+      \field{year}{2008}
+      \field{pages}{288\bibrangedash 304}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.pbb.2008.09.014
+      \endverb
+    \endentry
+    \entry{Stickgold2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b80fc32a6033b5d6af74350a62e809d4}{%
+           family={Stickgold},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{fullhash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{fullhashraw}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{bibnamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorbibnamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authornamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorfullhash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorfullhashraw}{b80fc32a6033b5d6af74350a62e809d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7063}
+      \field{title}{Sleep-dependent memory consolidation}
+      \field{volume}{437}
+      \field{year}{2005}
+      \field{pages}{1272\bibrangedash 1278}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature04286
+      \endverb
+    \endentry
+    \entry{Weingartner1978}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e21eba5d4fe56e4a970ed97afbeaf19}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{fullhash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{fullhashraw}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{bibnamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorbibnamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authornamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorfullhash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorfullhashraw}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Research in Psychology}
+      \field{title}{State-dependent storage and retrieval of experience}
+      \field{volume}{12}
+      \field{year}{1978}
+      \field{pages}{89\bibrangedash 112}
+      \range{pages}{24}
+    \endentry
+    \entry{White2004}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c62fd0e4cb5da23b92e79fea033dda7e}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{fullhash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{fullhashraw}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{bibnamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorbibnamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authornamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorfullhash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorfullhashraw}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Research \& Health}
+      \field{number}{2}
+      \field{title}{What happened? Alcohol, memory blackouts, and the brain}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{186\bibrangedash 196}
+      \range{pages}{11}
+    \endentry
+    \entry{Zorumski2014}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b44eba10e2759e6542b2726c8abb1995}{%
+           family={Zorumski},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4d3010bef03628ac31086645fa8296d}{%
+           family={Mennerick},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff70f2acd69cfde41a72bf4b28e1378}{%
+           family={Izumi},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6dfd573bd444301fe86db19c3e50043}
+      \strng{fullhash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{fullhashraw}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{bibnamehash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authorbibnamehash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authornamehash}{b6dfd573bd444301fe86db19c3e50043}
+      \strng{authorfullhash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authorfullhashraw}{1b8d5c324fd1b76d48a9909937ab1704}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuroscience \& Biobehavioral Reviews}
+      \field{title}{Acute and chronic alcohol and synaptic plasticity}
+      \field{volume}{42}
+      \field{year}{2014}
+      \field{pages}{72\bibrangedash 83}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.neubiorev.2013.10.006
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Albery1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=313763d739ae241a617665bd6a682c14}{%
+           family={Albery},
+           familyi={A\bibinitperiod},
+           given={I.\bibnamedelimi P.},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c60282d8177246e53e3c67db31d742f}{%
+           family={Adisesh},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{fullhash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{fullhashraw}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{bibnamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorbibnamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authornamehash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorfullhash}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \strng{authorfullhashraw}{d9f1ef8f6e38abc30c49776e32861c0d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Psychology}
+      \field{number}{3}
+      \field{title}{Alcohol and memory: A review of findings and issues}
+      \field{volume}{18}
+      \field{year}{1999}
+      \field{pages}{293\bibrangedash 310}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s12144-999-1011-2
+      \endverb
+    \endentry
+    \entry{Baddeley1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13d83892d8629b0121e6e18a524bbd44}{%
+           family={Baddeley},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Psychology Press}%
+      }
+      \strng{namehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{fullhash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{fullhashraw}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{bibnamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorbibnamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authornamehash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorfullhash}{13d83892d8629b0121e6e18a524bbd44}
+      \strng{authorfullhashraw}{13d83892d8629b0121e6e18a524bbd44}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Human Memory: Theory and Practice}
+      \field{year}{1997}
+    \endentry
+    \entry{Bliss1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=16a9192f76f7eaade5ab1c788ad3f503}{%
+           family={Bliss},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi V.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb3d1b1c65cf2d986676781aa82b58cd}{%
+           family={Collingridge},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{fullhash}{66858a2cac4358568e5d90c30078be52}
+      \strng{fullhashraw}{66858a2cac4358568e5d90c30078be52}
+      \strng{bibnamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorbibnamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authornamehash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorfullhash}{66858a2cac4358568e5d90c30078be52}
+      \strng{authorfullhashraw}{66858a2cac4358568e5d90c30078be52}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6407}
+      \field{title}{A synaptic model of memory: Long-term potentiation in the hippocampus}
+      \field{volume}{361}
+      \field{year}{1993}
+      \field{pages}{31\bibrangedash 39}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/361031a0
+      \endverb
+    \endentry
+    \entry{Bruce1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ad1a1f119d5226fa209d1c740108c7c8}{%
+           family={Bruce},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2356cd34a7f8f0bab06d6e56b187f41}{%
+           family={Pihl},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{fullhash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{fullhashraw}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{bibnamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorbibnamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authornamehash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorfullhash}{3557dbf62b51d2ee36c0931992c700a2}
+      \strng{authorfullhashraw}{3557dbf62b51d2ee36c0931992c700a2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Studies on Alcohol}
+      \field{number}{5}
+      \field{title}{Alcohol and retrograde memory enhancement: it's a matter of time and task}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{pages}{702\bibrangedash 705}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.15288/jsa.1999.60.702
+      \endverb
+    \endentry
+    \entry{Duff2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7f73b4d7af4d44c453c4bfe070abe19d}{%
+           family={Duff},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cd754415a2138d5b513b3072c22a0c3}{%
+           family={Logue},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{fullhash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{fullhashraw}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{bibnamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorbibnamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authornamehash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorfullhash}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \strng{authorfullhashraw}{ad8c22cbbf66676b6f0280bdc99e9a00}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Addictive Behaviors}
+      \field{number}{1}
+      \field{title}{The effects of post-learning ethanol on retroactive interference}
+      \field{volume}{34}
+      \field{year}{2009}
+      \field{pages}{110\bibrangedash 113}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.addbeh.2008.08.003
+      \endverb
+    \endentry
+    \entry{Fein2006}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0398569e9f2c420f37f0e9334174d5aa}{%
+           family={Fein},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=078567407aeca6c34c23d972daa0915a}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcdf48e2ec4bf40646aba095f4290932}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2e949d2e43704913f45ba7440b4edee}{%
+           family={Di\bibnamedelima Sclafani},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{271ef02d6396f6d7608c631e90f540a6}
+      \strng{fullhash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{fullhashraw}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{bibnamehash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authorbibnamehash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authornamehash}{271ef02d6396f6d7608c631e90f540a6}
+      \strng{authorfullhash}{265814520fd2eccbb74997cc68ab5c28}
+      \strng{authorfullhashraw}{265814520fd2eccbb74997cc68ab5c28}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{number}{9}
+      \field{title}{Cognitive performance in long-term abstinent alcoholics}
+      \field{volume}{30}
+      \field{year}{2006}
+      \field{pages}{1538\bibrangedash 1544}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.2006.00189.x
+      \endverb
+    \endentry
+    \entry{Goodwin1973}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=794f5c15b3fcfc14cb3be923f4ee0c23}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{fullhash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{fullhashraw}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{bibnamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorbibnamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authornamehash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorfullhash}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \strng{authorfullhashraw}{794f5c15b3fcfc14cb3be923f4ee0c23}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Alcoholic "blackouts": A review and clinical study of 100 alcoholics}
+      \field{year}{1973}
+    \endentry
+    \entry{Goodwin1969}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=794f5c15b3fcfc14cb3be923f4ee0c23}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08b7d5e232fc0144fcc9b137951ce45f}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e11676933994b902660818b574ca4969}{%
+           family={Bremer},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc09fcd0e76a9d87905aeb57d8a39ef5}{%
+           family={Hoine},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fba841d75acc12b0a126b3e8ee74aaa}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{139777273269d30c6c64992905d19514}
+      \strng{fullhash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{fullhashraw}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{bibnamehash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authorbibnamehash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authornamehash}{139777273269d30c6c64992905d19514}
+      \strng{authorfullhash}{782d4ecee9ded2688e988636c5e020e6}
+      \strng{authorfullhashraw}{782d4ecee9ded2688e988636c5e020e6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3873}
+      \field{title}{Alcohol and recall: State-dependent effects in man}
+      \field{volume}{163}
+      \field{year}{1969}
+      \field{pages}{1358\bibrangedash 1360}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.163.3873.1358
+      \endverb
+    \endentry
+    \entry{Hasselmo2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7cf8ffdb9bfe6b4f4f297f5b29d1136a}{%
+           family={Hasselmo},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{fullhash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{fullhashraw}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{bibnamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorbibnamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authornamehash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorfullhash}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \strng{authorfullhashraw}{7cf8ffdb9bfe6b4f4f297f5b29d1136a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Opinion in Neurobiology}
+      \field{number}{2}
+      \field{title}{The role of acetylcholine in learning and memory}
+      \field{volume}{12}
+      \field{year}{2002}
+      \field{pages}{184\bibrangedash 189}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S0959-4388(02)00308-0
+      \endverb
+    \endentry
+    \entry{Hewitt1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c2a225676933b7fe4c5da2de085500aa}{%
+           family={Hewitt},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2356cd34a7f8f0bab06d6e56b187f41}{%
+           family={Pihl},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{fullhash}{581e2056570083e30c2395fcb1f07516}
+      \strng{fullhashraw}{581e2056570083e30c2395fcb1f07516}
+      \strng{bibnamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorbibnamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authornamehash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorfullhash}{581e2056570083e30c2395fcb1f07516}
+      \strng{authorfullhashraw}{581e2056570083e30c2395fcb1f07516}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Studies on Alcohol}
+      \field{number}{4}
+      \field{title}{The effects of alcohol on memory: a review of interference and consolidation processes}
+      \field{volume}{56}
+      \field{year}{1995}
+      \field{pages}{467\bibrangedash 475}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.15288/jsa.1995.56.467
+      \endverb
+    \endentry
+    \entry{Knowles1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c6e196894cd9243cf28cbca6dc1cdddb}{%
+           family={Knowles},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9314458e56f0dee64b82ec9f519b299d}{%
+           family={Nathan},
+           familyi={N\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{fullhash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{fullhashraw}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{bibnamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorbibnamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authornamehash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorfullhash}{74f188c7b8647d8ebfe77d2e3903281a}
+      \strng{authorfullhashraw}{74f188c7b8647d8ebfe77d2e3903281a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{Alcohol and Memory: A Review}
+      \field{volume}{109}
+      \field{year}{1991}
+      \field{pages}{312\bibrangedash 325}
+      \range{pages}{14}
+    \endentry
+    \entry{Lamberty1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=80d66d4b4112696a8b121f0d6a40fb84}{%
+           family={Lamberty},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab35dbc2c253a5a67c91312d9ceb5517}{%
+           family={Vagge},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{681de818938201027648871273d14050}
+      \strng{fullhash}{681de818938201027648871273d14050}
+      \strng{fullhashraw}{681de818938201027648871273d14050}
+      \strng{bibnamehash}{681de818938201027648871273d14050}
+      \strng{authorbibnamehash}{681de818938201027648871273d14050}
+      \strng{authornamehash}{681de818938201027648871273d14050}
+      \strng{authorfullhash}{681de818938201027648871273d14050}
+      \strng{authorfullhashraw}{681de818938201027648871273d14050}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychopharmacology}
+      \field{number}{3}
+      \field{title}{Post-acquisition ethanol enhances retention of an appetitive task}
+      \field{volume}{100}
+      \field{year}{1990}
+      \field{pages}{353\bibrangedash 358}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/BF02245715
+      \endverb
+    \endentry
+    \entry{Lovinger1997}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a65517db681586c28e8ec46f0909436}{%
+           family={Lovinger},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{fullhash}{6a65517db681586c28e8ec46f0909436}
+      \strng{fullhashraw}{6a65517db681586c28e8ec46f0909436}
+      \strng{bibnamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorbibnamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authornamehash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorfullhash}{6a65517db681586c28e8ec46f0909436}
+      \strng{authorfullhashraw}{6a65517db681586c28e8ec46f0909436}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NaunynSchmiedeberg's Archives of Pharmacology}
+      \field{number}{3}
+      \field{title}{Alcohols and neurotransmitter gated ion channels past, present and future}
+      \field{volume}{356}
+      \field{year}{1997}
+      \field{pages}{267\bibrangedash 282}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/PL00005032
+      \endverb
+    \endentry
+    \entry{McGaugh2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db01f87806e21af9f0aec741fe4d2f09}{%
+           family={McGaugh},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{fullhash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{fullhashraw}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{bibnamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorbibnamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authornamehash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorfullhash}{db01f87806e21af9f0aec741fe4d2f09}
+      \strng{authorfullhashraw}{db01f87806e21af9f0aec741fe4d2f09}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5451}
+      \field{title}{Memory--a century of consolidation}
+      \field{volume}{287}
+      \field{year}{2000}
+      \field{pages}{248\bibrangedash 251}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.287.5451.248
+      \endverb
+    \endentry
+    \entry{Moss2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ed538ff70c2b96d5d6b86d6e33aaa70d}{%
+           family={Moss},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa9b7a400f216cd933cb4f2bc727418a}{%
+           family={Kirisci},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=425143f4967f97883f7706dd05e01f22}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi W.},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4802b8645d5a9546284ff2e44e53753c}{%
+           family={Tarter},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a3a314647f1b6e9ad480a231ef53d8d}
+      \strng{fullhash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{fullhashraw}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{bibnamehash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authorbibnamehash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authornamehash}{6a3a314647f1b6e9ad480a231ef53d8d}
+      \strng{authorfullhash}{de7186251081ca66a465ac1b5bf4c44c}
+      \strng{authorfullhashraw}{de7186251081ca66a465ac1b5bf4c44c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{title}{A neuropsychologic profile of adolescent alcoholics}
+      \field{volume}{18}
+      \field{year}{2007}
+      \field{pages}{159\bibrangedash 164}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.1994.tb00004.x
+      \endverb
+    \endentry
+    \entry{Mueller1983}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=53c7306f441282a73a06d2633de035ee}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce89060d79e7bf348bdbcd242a4cf1a5}{%
+           family={Lisman},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fe340c54a84c5caf9b957d3d174a232}{%
+           family={Spear},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15a6a17245fb5ca8cf1d2a642b39f99c}
+      \strng{fullhash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{fullhashraw}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{bibnamehash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authorbibnamehash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authornamehash}{15a6a17245fb5ca8cf1d2a642b39f99c}
+      \strng{authorfullhash}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \strng{authorfullhashraw}{a5a9189297ad62c1d7b9d1dd5de7c4ec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{3}
+      \field{title}{Alcohol and memory: A review and integration}
+      \field{volume}{93}
+      \field{year}{1983}
+      \field{pages}{487\bibrangedash 507}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/0033-2909.93.3.487
+      \endverb
+    \endentry
+    \entry{NIAAA2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=230439a83e5f95cc78803e076b338765}{%
+           family={{National Institute on Alcohol Abuse and Alcoholism}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{230439a83e5f95cc78803e076b338765}
+      \strng{fullhash}{230439a83e5f95cc78803e076b338765}
+      \strng{fullhashraw}{230439a83e5f95cc78803e076b338765}
+      \strng{bibnamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorbibnamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authornamehash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorfullhash}{230439a83e5f95cc78803e076b338765}
+      \strng{authorfullhashraw}{230439a83e5f95cc78803e076b338765}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Alert}
+      \field{number}{48}
+      \field{title}{Alcohol and women}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://pubs.niaaa.nih.gov/publications/aa48.htm
+      \endverb
+      \verb{url}
+      \verb https://pubs.niaaa.nih.gov/publications/aa48.htm
+      \endverb
+    \endentry
+    \entry{OscarBerman2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ba4d2afb91b7a6ffcd80988c425a4202}{%
+           family={Oscar-Berman},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb2eccdba8baa34013ea9025eaa07903}{%
+           family={Marinkovic},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{fullhash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{fullhashraw}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{bibnamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorbibnamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authornamehash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorfullhash}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \strng{authorfullhashraw}{0272b5b1fb4c3cf3929ed70f1e0232ba}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Research \& Health}
+      \field{number}{2}
+      \field{title}{Alcoholism and the brain: An overview}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{125\bibrangedash 133}
+      \range{pages}{9}
+    \endentry
+    \entry{Parker1976}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3f637d5e463f63e492bc15dcad240ca}{%
+           family={Birnbaum},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=058cc4639264a0110972000614ee636f}{%
+           family={Noble},
+           familyi={N\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{fullhashraw}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{bibnamehash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authorbibnamehash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{0ef0342d0887045a433d1a1ec743155f}
+      \strng{authorfullhashraw}{0ef0342d0887045a433d1a1ec743155f}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Verbal Learning and Verbal Behavior}
+      \field{number}{6}
+      \field{title}{Alcohol and memory: Storage and state dependency}
+      \field{volume}{15}
+      \field{year}{1976}
+      \field{pages}{691\bibrangedash 702}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/0022-5371(76)90071-3
+      \endverb
+    \endentry
+    \entry{Parker1980}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3f637d5e463f63e492bc15dcad240ca}{%
+           family={Birnbaum},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2172c501565f89f770842580b97ddcc}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570bc0514c4f21a77fb95938d31f2f68}{%
+           family={Stillman},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08e227c373dfa2755f31f1879e165a7e}{%
+           family={Wyatt},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{fullhashraw}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{bibnamehash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authorbibnamehash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \strng{authorfullhashraw}{e9b88c4cce3d3fd1395af9d07ab8737e}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychopharmacology}
+      \field{number}{2}
+      \field{title}{Retrograde Enhancement of Human Memory with Alcohol}
+      \field{volume}{69}
+      \field{year}{1980}
+      \field{pages}{219\bibrangedash 222}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/BF00428300
+      \endverb
+    \endentry
+    \entry{Parker1981}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=97aa0fdbefd7bb3c82443137f6b6ffa1}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94b63e110bc6e68dfc913311081182d}{%
+           family={Morihisa},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08e227c373dfa2755f31f1879e165a7e}{%
+           family={Wyatt},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570bc0514c4f21a77fb95938d31f2f68}{%
+           family={Stillman},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{fullhash}{7367594e683338ba17648689b786f165}
+      \strng{fullhashraw}{7367594e683338ba17648689b786f165}
+      \strng{bibnamehash}{7367594e683338ba17648689b786f165}
+      \strng{authorbibnamehash}{7367594e683338ba17648689b786f165}
+      \strng{authornamehash}{4bd874446b4da5f211d4636e23829689}
+      \strng{authorfullhash}{7367594e683338ba17648689b786f165}
+      \strng{authorfullhashraw}{7367594e683338ba17648689b786f165}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcoholism: Clinical and Experimental Research}
+      \field{number}{4}
+      \field{title}{The alcohol facilitation of memory: a dose-response study}
+      \field{volume}{5}
+      \field{year}{1981}
+      \field{pages}{610\bibrangedash 614}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/j.1530-0277.1981.tb04904.x
+      \endverb
+    \endentry
+    \entry{Rehm2009}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d9b8560f47e74175b13d92c2c1216b9e}{%
+           family={Rehm},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47f21e37feb749dbcadedd44f37a4bc0}{%
+           family={Mathers},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffb7266c9452f3621b75dafc9d72ba8}{%
+           family={Popova},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d52ed07c8aaaf74c29dad522911c285c}{%
+           family={Thavorncharoensap},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=434f858e1d8cac739febabaec5f7e593}{%
+           family={Teerawattananon},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0adb9c9dc6c22a6bef87ebf5c0b2b079}{%
+           family={Patra},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f28fcac130b4e7df6a7a22b40933140}
+      \strng{fullhash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{fullhashraw}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{bibnamehash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authorbibnamehash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authornamehash}{0f28fcac130b4e7df6a7a22b40933140}
+      \strng{authorfullhash}{31bf806a811112c7a7dd408a0e83837e}
+      \strng{authorfullhashraw}{31bf806a811112c7a7dd408a0e83837e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet}
+      \field{number}{9682}
+      \field{title}{Global burden of disease and injury and economic cost attributable to alcohol use and alcohol-use disorders}
+      \field{volume}{373}
+      \field{year}{2009}
+      \field{pages}{2223\bibrangedash 2233}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(09)60746-7
+      \endverb
+    \endentry
+    \entry{Roozendaal2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=471a27b18f78f28c6fde246820191ea3}{%
+           family={Roozendaal},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db01f87806e21af9f0aec741fe4d2f09}{%
+           family={McGaugh},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{fullhash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{fullhashraw}{7878eaff26211455663df9f563d2e2e7}
+      \strng{bibnamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorbibnamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authornamehash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorfullhash}{7878eaff26211455663df9f563d2e2e7}
+      \strng{authorfullhashraw}{7878eaff26211455663df9f563d2e2e7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral Neuroscience}
+      \field{number}{3}
+      \field{title}{Memory modulation}
+      \field{volume}{123}
+      \field{year}{2009}
+      \field{pages}{677\bibrangedash 694}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1037/a0015891
+      \endverb
+    \endentry
+    \entry{Ryback1971}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c1d7597161049970762ef0edc405713}{%
+           family={Ryback},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c1d7597161049970762ef0edc405713}
+      \strng{fullhash}{8c1d7597161049970762ef0edc405713}
+      \strng{fullhashraw}{8c1d7597161049970762ef0edc405713}
+      \strng{bibnamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorbibnamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authornamehash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorfullhash}{8c1d7597161049970762ef0edc405713}
+      \strng{authorfullhashraw}{8c1d7597161049970762ef0edc405713}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Studies on Alcohol}
+      \field{number}{4}
+      \field{title}{Alcohol amnesia: A review and analysis}
+      \field{volume}{32}
+      \field{year}{1971}
+      \field{pages}{995\bibrangedash 1016}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.15288/qjsa.1971.32.995
+      \endverb
+    \endentry
+    \entry{Stephens2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=59c04ba0f3a5582a043cdc0943f03674}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adf3d071ffb20dab91a8407e4923b488}{%
+           family={Duka},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{fullhash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{fullhashraw}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{bibnamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorbibnamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authornamehash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorfullhash}{3e2c74c449cc6710415b62de3c0b8965}
+      \strng{authorfullhashraw}{3e2c74c449cc6710415b62de3c0b8965}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pharmacology Biochemistry and Behavior}
+      \field{number}{3}
+      \field{title}{Review. Cognitive and motivational influences of alcohol: a critical review of behavioural effects}
+      \field{volume}{91}
+      \field{year}{2008}
+      \field{pages}{288\bibrangedash 304}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.pbb.2008.09.014
+      \endverb
+    \endentry
+    \entry{Stickgold2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b80fc32a6033b5d6af74350a62e809d4}{%
+           family={Stickgold},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{fullhash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{fullhashraw}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{bibnamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorbibnamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authornamehash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorfullhash}{b80fc32a6033b5d6af74350a62e809d4}
+      \strng{authorfullhashraw}{b80fc32a6033b5d6af74350a62e809d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7063}
+      \field{title}{Sleep-dependent memory consolidation}
+      \field{volume}{437}
+      \field{year}{2005}
+      \field{pages}{1272\bibrangedash 1278}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature04286
+      \endverb
+    \endentry
+    \entry{Weingartner1978}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8d67354a7c4909dbeece3b286b8449ec}{%
+           family={Weingartner},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e21eba5d4fe56e4a970ed97afbeaf19}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{fullhash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{fullhashraw}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{bibnamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorbibnamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authornamehash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorfullhash}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \strng{authorfullhashraw}{8cefd04d39b910af2cc04e25cb05b9a5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Research in Psychology}
+      \field{title}{State-dependent storage and retrieval of experience}
+      \field{volume}{12}
+      \field{year}{1978}
+      \field{pages}{89\bibrangedash 112}
+      \range{pages}{24}
+    \endentry
+    \entry{White2004}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c62fd0e4cb5da23b92e79fea033dda7e}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{fullhash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{fullhashraw}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{bibnamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorbibnamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authornamehash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorfullhash}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \strng{authorfullhashraw}{c62fd0e4cb5da23b92e79fea033dda7e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol Research \& Health}
+      \field{number}{2}
+      \field{title}{What happened? Alcohol, memory blackouts, and the brain}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{186\bibrangedash 196}
+      \range{pages}{11}
+    \endentry
+    \entry{Zorumski2014}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b44eba10e2759e6542b2726c8abb1995}{%
+           family={Zorumski},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4d3010bef03628ac31086645fa8296d}{%
+           family={Mennerick},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff70f2acd69cfde41a72bf4b28e1378}{%
+           family={Izumi},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6dfd573bd444301fe86db19c3e50043}
+      \strng{fullhash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{fullhashraw}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{bibnamehash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authorbibnamehash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authornamehash}{b6dfd573bd444301fe86db19c3e50043}
+      \strng{authorfullhash}{1b8d5c324fd1b76d48a9909937ab1704}
+      \strng{authorfullhashraw}{1b8d5c324fd1b76d48a9909937ab1704}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neuroscience \& Biobehavioral Reviews}
+      \field{title}{Acute and chronic alcohol and synaptic plasticity}
+      \field{volume}{42}
+      \field{year}{2014}
+      \field{pages}{72\bibrangedash 83}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.neubiorev.2013.10.006
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

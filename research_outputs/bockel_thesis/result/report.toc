@@ -1,0 +1,88 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background and Problem Statement}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Scientific and Societal Relevance}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Question}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Hypotheses}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Thesis Outline}{8}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Theoretical Framework and Literature Review}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Definition and Measurement of Neuroticism}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Definition and Facets}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Theoretical Foundations}{10}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Measurement Instruments}{10}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Manifestations and Correlates}{11}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Physiological Stress Reactivity (Focus on Cardiovascular Measures)}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Definition and Concepts}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Neuroendocrine Pathways}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Cardiovascular Markers (HR, HRV, BP)}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Cardiovascular Reactivity Hypothesis}{13}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Moderators of Reactivity}{13}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Stress in Daily (Work) Life versus Laboratory Settings}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Laboratory Stressors: Characteristics and Limitations}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Stress in Daily Work Life: Characteristics and Advantages}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Comparison of Stress Responses}{13}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Ambulatory Measurements and Ecological Momentary Assessment (EMA)}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Ambulatory Physiological Monitoring}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Ecological Momentary Assessment (EMA)}{14}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Integration and Synergy}{14}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Methodological Challenges in Field Research}{14}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}The Neuroticism-Stress Reactivity Relationship}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Stress Reactivity Patterns}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Neuroticism and Increased Negative Affectivity}{14}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Empirical Evidence (Cardiovascular)}{14}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Theoretical Explanations for Discrepancies}{15}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Synthesis for Daily Work Situations}{15}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.6}Methodological Considerations in Stress Research}{15}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Method}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Participants}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Recruitment and Sample Characteristics}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Inclusion and Exclusion Criteria}{17}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Sample Size and Power (Post-hoc Consideration)}{17}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Ethical Considerations}{17}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Materials and Measurement Instruments}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Neuroticism (Amsterdam Biographical Questionnaire)}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Cardiovascular Parameters (VU-AMS)}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Physical Activity (Accelerometer)}{18}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Diary (EMA Elements)}{18}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Other Measurements (Anthropometry, Demographics, Lifestyle)}{19}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Procedure}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Preparation}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Measurement Day Protocol}{19}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}After the Measurement Day}{19}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Data Processing and Analysis Plan}{19}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Used Datasets and Software}{19}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Preparatory Steps (Cleaning, Operationalization)}{20}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Statistical Analyses (Overview)}{20}{subsection.3.5.3}%
+\contentsline {chapter}{\numberline {4}Results}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Descriptive Statistics of the Sample}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Demographic Data}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Physiological Parameters (Baseline, Work, Reactivity) (N=300)}{23}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Stratified Descriptives}{25}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Results per Hypothesis/Research Question}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}H1: Neuroticism and Cardiovascular Stress Reactivity (Group Comparisons)}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Correlations between Continuous Neuroticism Score and Reactivity Measures (H2)}{26}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Additional Analyses}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Influence of Demographic Factors on Reactivity (H3)}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Differences in Physiology by Sex and Age Group}{27}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}ANOVAs with Neuroticism and Demographic Factors (H3)}{27}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Multiple Regression Analyses (Exploratory)}{28}{subsection.4.3.4}%
+\contentsline {chapter}{\numberline {5}Discussion}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Key Findings}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Interpretation of Results in Relation to Hypotheses and Literature}{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Neuroticism and Cardiovascular Reactivity}{31}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Role of Demographic Factors}{31}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Explanations for (Un)expected Results}{32}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Strengths of the Research}{33}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Theoretical and Practical Implications}{34}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Concise Answer to the Research Question}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Main Conclusions}{35}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Limitations of the Research and Error Analysis}{37}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Methodological Limitations}{37}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations Related to the Sample}{38}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Potential Sources of Bias or Errors}{38}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Impact of Limitations on Generalizability and Validity}{39}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Recommendations}{40}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Recommendations for Future Research}{40}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Potential Practical Implications}{41}{section.8.2}%
